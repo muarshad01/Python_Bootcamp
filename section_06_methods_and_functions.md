@@ -1,5 +1,11 @@
 ## 41 Methods and the Python Documentation
 
+```python
+In: mylist = [1,2,3]
+In: mylist.append(4)
+In: mylist
+Out: [1, 2, 3, 4]
+```
 ***
 
 ## 42. Introduction to Functions
