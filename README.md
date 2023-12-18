@@ -27,3 +27,12 @@
 * [Section 23: Bonus Section - Thank you!](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_23_thank_you.md)
 
 ***
+
+## NOTES
+
+* Python is `dynamically typed`, which means I don't need to specify beforehand what data type I expect for `num1` and `num2` to be.
+    * This allows you to program much faster, but it also leaves you open to possible bugs.
+```python
+def add_nums(num1, num2):
+    return num1 + num2
+```

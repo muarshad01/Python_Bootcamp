@@ -43,10 +43,10 @@ def name_of_function():
 ***
 
 ```python
-def name_of_function(name):
-    print("Hello" + name)
+def name_of_function(name='Default'):
+    print(f'Hello {name}')
 
->> name_of_function("James")
+>> name_of_function('James')
 >> Hello James
 ```
 ***
