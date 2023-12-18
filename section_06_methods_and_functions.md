@@ -29,7 +29,7 @@ def name_of_function():
     ```
     Docstring explains function.
     ```
-    print("Hello")
+    print('Hello')
 
 >> name_of_function()
 >> Hello
@@ -102,7 +102,6 @@ def check_even_list(num_list):
 ```
 * How you can have multiple returns inside a function.
 
-
 ```python
 def check_even_list(num_list):
     # return all the even numbers in a list
@@ -134,12 +133,3 @@ def check_even_list(num_list):
 ***
 
 ## 49
-
-
-
-
-
-
-
-
-
