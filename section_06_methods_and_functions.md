@@ -30,29 +30,22 @@ def name_of_function():
     Docstring explains function.
     ```
     print("Hello")
-```
 
-```python
 >> name_of_function()
 >> Hello
 ```
 
 * Note: Everything inside the function is indented
-* Python uses `snake casing` be default for name of function, which is all lowercase with underscores between words
-* Class calls use `camel casing`
+* (`:`) at the end of parenthesis `()` tells that next we have an indented block of code
+* Python uses `snake-casing`, by default, for name of function, which is all lowercase with underscores between words
+* Class calls use `camel-casing`
 
 ***
 
-
 ```python
 def name_of_function(name):
-    ```
-    Docstring explains function.
-    ```
     print("Hello" + name)
-```
 
-```python
 >> name_of_function("James")
 >> Hello James
 ```
