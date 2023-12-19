@@ -157,6 +157,58 @@ result = employee_check(work_hours)
 
 ## 47. Interactions between Python Functions
 
+```python
+In: example = [1,2,3,4,5,6,7]
+In: from random import shuffle
+In: result = shuffle(example)
+In: result                      # This will not print anything
+
+In: def shuffle_list(mylist):
+        shuffle(mylist)
+        return mylist
+
+In: result = shuffle_list(example)
+In: result
+Out: [3,4,1,5,6,7,2]
+```
+
+```python
+In: mylist = [' ','O',' ']
+In: shuffle_list(mylist)
+Out: ['O',' ',' ']
+
+In: def player_guess():
+        guess = ' '
+        while guess not in ['0','1','2']
+            guess = input("Pick a number: 0, 1 or 2")
+
+        return int(guess)
+
+In: player_guess()
+Out: 1
+
+In: def check_guess(mylist, guess):
+        if mylist[guess] == 'O'
+            print("Correct!")
+        else:
+            print("Wrong guess!")
+            print(mylist)
+```
+
+```python
+# INITIAL LIST
+mylist = [' ','O',' ']
+
+# SHUFFLE LIST
+mixedup_list = shuffle_list(mylist)
+
+# USER GUESS
+guess = player_guess()
+
+# CHECK GUESS
+check_guess=(mixedup_list,guess)
+```
+
 ***
 
 ## 48. Overview of Quick Function
