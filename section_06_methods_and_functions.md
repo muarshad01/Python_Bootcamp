@@ -221,6 +221,31 @@ check_guess=(mixedup_list,guess)
 
 ## 49. `*args` and `**kwargs` in Python
 
+```python
+In: def myfunc(*args):
+        print(args)
+
+In: myfunc(40,60,100,1,34)
+```
+
+```python
+def myfunc(**kwargs):
+    if 'fruit' in kwargs:
+        print('My fruit of choice is{}'.format(kwargs['fruit']))
+    else:
+        print('I didn't find any fruit')
+myfunc(fruti='apple',veggie='lettuce')
+```
+
+```python
+def myfunc(*args,**kwargs):
+    print(args)
+    print(kwargs)
+    print('I would like {} {}'.format(args[0],kwargs['food']))
+
+myfunc(10,20,30,fruit='orange',food='eggs')
+```
+
 ***
 
 ## 50. Function Practice Exercises - Overview
