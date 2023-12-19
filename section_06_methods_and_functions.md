@@ -211,12 +211,49 @@ check_guess=(mixedup_list,guess)
 
 ***
 
-* [Exercise Solutions](https://docs.google.com/document/d/181AMuP-V5VnSorl_q7p6BYd8mwXWBnsZY_sSPA8trfc/edit?pli=1)
-
-***
-
 ## 48. Overview of Quick Function
 
 ***
 
-## 49
+* [Exercise Solutions](https://docs.google.com/document/d/181AMuP-V5VnSorl_q7p6BYd8mwXWBnsZY_sSPA8trfc/edit?pli=1)
+
+## 49. `*args` and `**kwargs` in Python
+
+***
+
+## 50. Function Practice Exercises - Overview
+
+***
+
+## 51. Function Practice - Solutions
+
+***
+
+## 52. Function Practice - Solutions Level One
+
+***
+
+## 53. Function Practice - Solutions Level Two
+
+***
+
+## 54. Function Exercise Solutions - Challenge Problem
+
+***
+
+## 55. Lambda Expressions, Map, and Filter Functions
+
+***
+
+## 56. Nested Statements and Scope
+
+***
+
+## 57. Methods and Functions Homework Overview
+
+***
+
+## 58. Methods and Functions Homework - Solutions
+
+***
+
