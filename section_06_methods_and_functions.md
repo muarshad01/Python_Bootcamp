@@ -303,6 +303,34 @@ list(map(splicer, names))
 
 ### `filter()` function
 
+```python
+def check_even(num):
+    return num%2 == 0
+
+mynums = [1,2,3,4,5,6]
+
+list(filter(check_even, mynums))
+
+OR
+
+for n in filter(check_even, mynums):
+    print (n)
+```
+
+### Lambda function
+
+```python
+list(map(lambda num:num**2, mynums))
+```
+
+```python
+list(filter(lambda num:num%2 ==0, mynumber))
+```
+
+```python
+list(map(lambda x:x[::-1], names))
+```
+
 ***
 
 ## 56. Nested Statements and Scope
