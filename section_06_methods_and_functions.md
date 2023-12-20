@@ -277,10 +277,14 @@ myfunc(10,20,30,fruit='orange',food='eggs')
 
 * LEGB rule format:
     * Local,
+    * Enclosing function locals,
+    * Global,
+    * Built-in.
+
 ```python
 lambda num:num**2
 ```
-    * Enclosing function locals,
+
 ```python
 # GLOBAL
 name = 'THIS IS A GLOBAL STRING'
@@ -299,8 +303,6 @@ def greet():
 
 greet()
 ```
-    * Global,
-    * and Built-in.
 
 ***
 
