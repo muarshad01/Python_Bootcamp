@@ -283,5 +283,31 @@ myfunc(10,20,30,fruit='orange',food='eggs')
 
 ## 58. Methods and Functions Homework - Solutions
 
+```python
+import string
+
+def ispangram(
+    str1: string,
+    alphaset=string.ascii_lowercase
+) -> bool:
+    '''
+    ispangram method
+    '''
+    # Create a set of alphaset
+    alphaset = set(alphaset)
+  
+    # Remove any spaces from the input string
+    str1 = str1.replace(' ', '')
+    
+    # Convert into all lowercase
+    str1 = str1.lowercase()
+    
+    # Grab all unique letters from the string set()
+    str1 = set(str1)
+       
+    # alphabet set == string set input
+    return str1 == alphaset
+```
+
 ***
 
