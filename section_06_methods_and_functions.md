@@ -275,6 +275,33 @@ myfunc(10,20,30,fruit='orange',food='eggs')
 
 ## 56. Nested Statements and Scope
 
+* LEGB rule format:
+    * Local,
+```python
+lambda num:num**2
+```
+    * Enclosing function locals,
+```python
+# GLOBAL
+name = 'THIS IS A GLOBAL STRING'
+
+def greet():
+
+    # ENCLOSING
+    name = 'Sammy'
+    
+    def hello():
+        # LOCAL
+        name = 'IM a LOCAL'
+        print('Hello ' + name)
+
+    hello()
+
+greet()
+```
+    * Global,
+    * and Built-in.
+
 ***
 
 ## 57. Methods and Functions Homework Overview
