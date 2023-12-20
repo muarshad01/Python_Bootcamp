@@ -304,6 +304,37 @@ def greet():
 greet()
 ```
 
+```python
+x = 50
+
+def func(x):
+    print(f'x is {x}')
+
+    # LOCAL REASSIGNMENT
+    x = 200
+    print(f'I JUST LOCALLY CHANGED X TO {X}')
+
+func(x)
+```
+
+### `global` keyword
+
+```python
+x = 50
+
+def func(x):
+    global x
+    print(f'x is {x}')
+
+    # LOCAL REASSIGNMENT ON A GLOBAL VARIABLE!
+    x = 'NEW VALUE'
+    print(f'I JUST LOCALLY CHANGED GLOBAL X TO {X}')
+
+func(x)
+```
+
+* Using the `global` keyword, you're able to reach out into that `global namespace` and then your local assignments do affect the global variable.
+
 ***
 
 ## 57. Methods and Functions Homework Overview
