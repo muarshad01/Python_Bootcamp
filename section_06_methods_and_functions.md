@@ -263,6 +263,29 @@ myfunc(10,20,30,fruit='orange',food='eggs')
 
 ## 53. Function Practice - Solutions Level Two
 
+```python
+
+def summer_69(arr):
+    
+    total = 0
+    add = True
+
+    for num in arr:
+        while add:
+            if num != 6:
+                total += num
+                break
+            else:
+                add = False
+        while no add:
+            if num != 9:
+                break
+            else:
+                add = True
+                break
+    return total
+```
+
 ***
 
 ## 54. Function Exercise Solutions - Challenge Problem
