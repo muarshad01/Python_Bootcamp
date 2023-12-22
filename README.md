@@ -7,7 +7,7 @@
 * [Section 3: Python Object and Data Structures Basics](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_03_python_object_and_data_structurs_basics.md)
 * [Section 4: Python Comparison Operatos](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_04_python_comparison_operatos.md)
 * [Section 5: Python Statements](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_05_python_statements.md)
-* [Section 6: Methods and Functions](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_06_methods_and_functions.md)
+* [Section 6: Methods and Functions](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_06_methods_and_functions.md) -- Dec. 22, 2023
 * [Section 7: Milestone Project-1](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_07_milestone_project-1.md)
 * [Section 8: Object Oriented Programming](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_08_object_oriented_programming.md)
 * [Section 9: Modules and Packages](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_09_modules_and_packages.md)
