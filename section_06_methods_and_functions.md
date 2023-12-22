@@ -267,6 +267,20 @@ myfunc(10,20,30,fruit='orange',food='eggs')
 
 ## 54. Function Exercise Solutions - Challenge Problem
 
+```python
+def spy_game(nums):
+
+    code = [0,0,7,'x']
+    # [0,7,'x']
+    # [7,'x']
+    # ['x'] length = 1
+    for num in nums:
+        if num == code[0]:
+            code.pop(0)
+    
+    return len(code) == 1
+```
+
 ***
 
 ## 55. Lambda Expressions, Map, and Filter Functions
