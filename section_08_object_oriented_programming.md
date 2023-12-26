@@ -212,6 +212,7 @@ class Cat(Animal):
 class Line():
 
     def __init__(self,coor1,coor2):
+        # coordinates are being passed and tuples
         self.coor1 = coor1
         self.coor2 = coor2
 
@@ -270,5 +271,28 @@ mycyl.surface_area()
 ***
 
 ## 76. OOP - Challenge Solution
+
+```python
+class Account():
+
+    def __init(self,owner,balance=0):
+        self.owner = owner
+        self.balance = balance
+
+    def deposit(self, dep_amt):
+        self.balance += dep_amt
+        print(f"Added {dep_amt} to the balance.")
+
+    dep withdraw(self,wd_amt):
+        if self.balance >= wd_amt:
+            self.balance -= wd_amt
+            print("Withdrawal accepted.")
+        else:
+            print("Sorry, not enough funds.")
+
+    def __str__(self):
+        return f"Owner {self.owner} \nBalance {self.balance}"
+```
+
 
 ***
