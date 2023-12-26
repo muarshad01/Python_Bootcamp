@@ -65,11 +65,32 @@ class Dog():
         self.name = name
 
     # OPERATIONS / Actions -> Methods
-    def bark(self):
-        print("Woof! My name is {}".format(self.name))
+    def bark(self,number):
+        print("Woof! My name is {}".format(self.name,number))
 
 my_dog = Dog('Lab','Frankie')
-my_dog.bark()
+my_dog.bark(10)
+```
+
+
+
+```python
+class Circle():
+
+    # CLASS OBJECT ATTRIBUTE
+    pi = 3.14
+
+    def __init__(self,radius=1):
+
+        self.radius = radius
+        self.area = radius * radius * Circle.pi
+
+    # Method
+    def circumference():
+        return Circle.pi * self.radius * 2
+
+my_circle = Cirle(10)
+my_circle.circumference()
 ```
 
 ***
