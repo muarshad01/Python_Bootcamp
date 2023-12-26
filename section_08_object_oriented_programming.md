@@ -33,8 +33,9 @@ class Dog():
 
         # Expect boolean True/False
         self.spots = spots
+```
 
-
+```python
 my_dog = Dog(breed='Lab',name='Sammy',spots=False)
 
 type(my_dog)
@@ -72,8 +73,6 @@ my_dog = Dog('Lab','Frankie')
 my_dog.bark(10)
 ```
 
-
-
 ```python
 class Circle():
 
@@ -88,7 +87,9 @@ class Circle():
     # Method
     def circumference():
         return 2* Circle.pi * self.radius
+```
 
+```python
 my_circle = Cirle(10)
 my_circle.circumference()
 ```
@@ -181,21 +182,22 @@ class Animal():
 
     def speak(self):
         raise NotImplementedError("Subclass must implement this abstract method")
+```
 
-
-
+```python
 class Dog(Animal):
 
     def speak(self):
         return self.name + " says woof!"
+```
 
-
-
+```python
 class Cat(Animal):
 
     def speak(self):
         return self.name + " says meow"
 ```
+
 ***
 
 ## 72. OOP - Special (Magic / Dunder) Methods
