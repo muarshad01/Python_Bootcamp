@@ -49,6 +49,29 @@ my_god.spots
 
 ## 70. OOP - Class Object Attributes and Methods
 
+```python
+class Dog():
+
+    # CLASS OBJECT ATTRIBUTE
+    # SAME FOR ANY INSTANCE OF A CLASS
+    species = 'mammal'
+
+    def __init__(self,breed,name):
+
+        # Attributes
+        # We take in the argument
+        # Assign in using self.attribute_name
+        self.breed = breed
+        self.name = name
+
+    # OPERATIONS / Actions -> Methods
+    def bark(self):
+        print("Woof! My name is {}".format(self.name))
+
+my_dog = Dog('Lab','Frankie')
+my_dog.bark()
+```
+
 ***
 
 ## 71. OOP - Inheritance and Polymorphism
