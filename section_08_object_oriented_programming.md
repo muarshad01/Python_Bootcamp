@@ -68,7 +68,9 @@ class Dog():
     # OPERATIONS / Actions -> Methods
     def bark(self,number):
         print("Woof! My name is {}".format(self.name,number))
+```
 
+```python
 my_dog = Dog('Lab','Frankie')
 my_dog.bark(10)
 ```
@@ -164,7 +166,9 @@ print(felix.speak())
 for pet in [niko,felix]:
     print(type(pet))
     print(type(pet.speak()))
+```
 
+```python
 def pet_speak(pet):
     print(pet.speak())
 
@@ -295,6 +299,5 @@ class Account():
     def __str__(self):
         return f"Owner {self.owner} \nBalance {self.balance}"
 ```
-
 
 ***
