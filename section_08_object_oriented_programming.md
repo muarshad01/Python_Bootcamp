@@ -87,7 +87,7 @@ class Circle():
 
     # Method
     def circumference():
-        return Circle.pi * self.radius * 2
+        return 2* Circle.pi * self.radius
 
 my_circle = Cirle(10)
 my_circle.circumference()
