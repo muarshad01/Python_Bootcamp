@@ -97,6 +97,44 @@ my_circle.circumference()
 
 ## 71. OOP - Inheritance and Polymorphism
 
+* Reuse code
+* Reduce complexity of program
+
+### Interitance
+
+```python
+class Animal():
+    def __init__(self):
+        print("ANIMAL CREATED")
+    
+    def who_am_i(self):
+        print("I'm an animal")
+    
+    def eat(self):
+        print("I'm eating")
+```
+
+```python
+class Dog(Animal):
+    
+    def __init__(self):
+        Animal.__init__(self)
+        print("Dog Created")
+   
+    def eat(self):
+        print("I'm a dog and eating") 
+    
+    def who_am_i(self):
+        print("I'm a dog!")
+
+    def bark(self):
+        print("Woof!")
+```
+
+### Polymorphism
+
+
+
 ***
 
 ## 72. OOP - Special (Magic / Dunder) Methods
