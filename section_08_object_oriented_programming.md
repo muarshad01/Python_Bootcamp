@@ -83,7 +83,7 @@ class Circle():
     def __init__(self,radius=1):
 
         self.radius = radius
-        self.area = radius * radius * Circle.pi
+        self.area = Circle.pi * radius * radius
 
     # Method
     def circumference():
