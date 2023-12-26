@@ -19,9 +19,8 @@ class NameOfClass():
 
 ## 69. OOP - Attributes and Class Keyword
 
-* The class is basically a blueprint that defines the nature of future object.
-* From classes, we can then construct an instance or an object.
-* An instance is a particular object created from a particular class.
+* The class is blueprint for creating objects.
+* An object is an instance of a class.
 
 ```python
 class Dog():
