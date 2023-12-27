@@ -138,6 +138,41 @@ from datetime import datetime
 
 ## 107. Python Math and Random Modules
 
+```python
+import random
+
+random.randint(0,100)
+```
+
+```python
+random.seed(101)
+random.randint(0,100)
+random.randint(0,100)
+random.randint(0,100)
+```
+
+```python
+mylist = list(range(0,20))
+
+random.choice(mylist)
+```
+
+### Sample With REPLACEMENT
+
+```python
+random.choices(population=mylist,k=10)
+```
+
+### Sample Without REPLACEMENT
+
+```python
+random.sample(population=mylist,k=10)
+```
+
+```python
+random.shuffle(mylist)
+```
+
 ***
 
 ## 108. Python Debugger
