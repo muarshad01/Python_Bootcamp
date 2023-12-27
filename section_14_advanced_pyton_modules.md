@@ -4,6 +4,7 @@
 
 ## 104. Python Collections Modules
 
+### collections
 ```python
 from collections import Counter
 mylist = [1,1,1,1,1,2,2,2,2,3,3,3,3,3,3,3]
@@ -23,6 +24,28 @@ c.most_common(3)
 list(c)
 ```
 
+### defaultdict
+
+```python
+from collections import defaultdict
+
+d = defaultdict(lambda: 0)
+d['correct'] = 100
+d['correct']
+d['WRONG KEY!']
+d
+```
+
+### `namedtuple`
+
+```python
+from collections import namedtuple
+
+Dog = namedtuple('Dog', ['age','breed','name'])
+sammy = Dog(age=5,breed='Husky',name='Sam')
+type(sammy)
+sammy
+```
 ***
 
 ## 105. Opening and Reading Files and Folders (Python OS Module)
