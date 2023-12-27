@@ -4,6 +4,25 @@
 
 ## 104. Python Collections Modules
 
+```python
+from collections import Counter
+mylist = [1,1,1,1,1,2,2,2,2,3,3,3,3,3,3,3]
+Counter(mylist)
+
+mylist = ['a','a',10,10,10]
+Counter(mylist)
+
+Counter('aaaabbbbshhshsjs')
+
+sentence = "How many times does each work show up in this sentence with a word"
+Counter(sentence.lower().split())
+
+letters = 'aaabbbcccddddddddddd'
+c = Counter(letters)
+c.most_common(3)
+list(c)
+```
+
 ***
 
 ## 105. Opening and Reading Files and Folders (Python OS Module)
