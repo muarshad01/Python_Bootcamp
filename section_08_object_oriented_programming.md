@@ -206,6 +206,31 @@ class Cat(Animal):
 
 ## 72. OOP - Special (Magic / Dunder) Methods
 
+```python
+class Book():
+
+    def __init__(self,title,author,pages):
+        self.title = title
+        self.author = author
+        self.pages = pages
+
+    def __str__(self):
+        return f"{self.title} by {self.author}"
+
+    def __len(self):
+        return self.pages
+
+    def __del__(self):
+        print(f"A book object has been deleted.")
+```
+
+```python
+b = Book('Python Rocks','Jose',200)
+
+print(b)
+len(b)
+del b
+```
 ***
 
 ## 73. OOP - Homework
