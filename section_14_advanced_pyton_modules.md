@@ -4,7 +4,8 @@
 
 ## 104. Python Collections Modules
 
-### collections
+### `collections`
+
 ```python
 from collections import Counter
 mylist = [1,1,1,1,1,2,2,2,2,3,3,3,3,3,3,3]
@@ -24,7 +25,7 @@ c.most_common(3)
 list(c)
 ```
 
-### defaultdict
+### `defaultdict`
 
 ```python
 from collections import defaultdict
@@ -46,6 +47,7 @@ sammy = Dog(age=5,breed='Husky',name='Sam')
 type(sammy)
 sammy
 ```
+
 ***
 
 ## 105. Opening and Reading Files and Folders (Python OS Module)
