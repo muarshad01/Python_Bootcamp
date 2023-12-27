@@ -71,7 +71,7 @@ os.listdir('/Users')
 ```python
 import shutil
 
-shutil.move('src','')
+shutil.move('src','dst')
 ```
 
 ### Delete Files
@@ -86,11 +86,15 @@ os.rmtree(path)
 pip install send2trash
 
 import send2trash
+
+send2trash.send2trash()
 ```
+
+### `os.walk()`
 
 ```python
 file_path = os.getcwd()
-for folder, sub_folders, files in os.walk(file_path)
+for folder, sub_folders, files in os.walk(file_path):
     
     print(f"Currently looking at {folder}")
     print('\n')
@@ -104,8 +108,6 @@ for folder, sub_folders, files in os.walk(file_path)
         print(f"\t File: {f}")
     print('\n')
 ```
-
-
 
 
 
