@@ -53,6 +53,66 @@ sammy
 
 ## 105. Opening and Reading Files and Folders (Python OS Module)
 
+```python
+f = open('practice.txt','w+')
+f.write('This is a test string')
+f.close()
+```
+
+```python
+import os
+
+os.getcwd()
+os.listdir()
+os.listdir('/Users')
+```
+### Move Files
+
+```python
+import shutil
+
+shutil.move('src','')
+```
+
+### Delete Files
+
+```python
+os.unlink(path)
+os.rmdir(path)
+os.rmtree(path)
+```
+
+```python
+pip install send2trash
+
+import send2trash
+```
+
+```python
+file_path = os.getcwd()
+for folder, sub_folders, files in os.walk(file_path)
+    
+    print(f"Currently looking at {folder}")
+    print('\n')
+    print('The sub_folders are: ')
+    for sub_fold in sub_folders:
+        print(f"\t sub_folder: {sub_fold}")
+
+    print('\n')
+    print('The files are: ')
+    for f in files:
+        print(f"\t File: {f}")
+    print('\n')
+```
+
+
+
+
+
+
+
+
+
 ***
 
 ## 106. Python Datetime Module
