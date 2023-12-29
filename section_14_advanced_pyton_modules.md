@@ -179,7 +179,30 @@ random.shuffle(mylist)
 
 ***
 
-## 109. Python Regular Expressions Part One
+## 109. Python Regular Expressions - Part One
+
+```
+(555)-555-555
+r"(\d\d\d)-\d\d\d-\d\d\d\d"
+r"(\d{3})-\d{3}-\d{4}"
+```
+
+```python
+text = "The agent's phone number is 408-555-1234. Call soon!"
+
+import re
+pattern = 'phone'
+match = re.search(pattern,text)
+matcn.span()
+matcn.start()
+matcn.end()
+
+text = 'my phone once, my phone twice'
+matches = re.findall('phone',text)
+len(matches)
+for match in re.finditer('phone',text):
+    print(match.group())
+```
 
 ***
 
