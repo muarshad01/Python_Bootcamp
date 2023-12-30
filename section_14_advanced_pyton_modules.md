@@ -246,18 +246,23 @@ print(elapsed_time)
 
 ### `import timeit`
 
-```
+```python
 import timeit
+```
 
+```python
 stmet = ```
 fund_one(100)
 ```
+```
 
+```python
 setup = ```
 def func_one(n):
     return [str(num) for num in range(n)]
 ```
-
+```
+```
 timeit.timeit(stmt,setup,number=100000)
 ```
 
