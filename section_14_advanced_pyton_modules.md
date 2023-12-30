@@ -206,15 +206,60 @@ for match in re.finditer('phone',text):
 
 ***
 
-## 110. Python Regular Expressions Part Two
+## 110. Python Regular Expressions - Part Two
 
 ***
 
-## 111. Python Regular Expressions Part Three
+## 111. Python Regular Expressions - Part Three
 
 ***
 
 ## 112. Timing Your Python Code
+
+```python
+def func_one(n):
+    return [str(num) for num in range(n)]
+```
+
+```python
+def fund_two(n):
+    return list(map(str,range(n)))
+```
+
+### `import time`
+
+```python
+# CURRENT TIME BEFORE
+start_time = time.tme()
+
+# RUN CODE
+result = func_one(10)
+
+# CURRENT TIME AFTER RUNNING CODE
+end_time = time.time()
+
+# ELAPSED TIME
+elapsed_time = end_time - start_time
+
+print(elapsed_time)
+```
+
+### `import timeit`
+
+```
+import timeit
+
+stmet = ```
+fund_one(100)
+```
+
+setup = ```
+def func_one(n):
+    return [str(num) for num in range(n)]
+```
+
+timeit.timeit(stmt,setup,number=100000)
+```
 
 ***
 
