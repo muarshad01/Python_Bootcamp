@@ -15,7 +15,7 @@
 * [Section 11: Milestone Project-2](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_11_milestone_project-2.md)
 * [Section 12: Python Decorators](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_12_python_decorators.md)
 * [Section 13: Python Generators](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_13_pyton_generators.md)
-* [Section 14: Advanced Python Modules](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_14_advanced_pyton_modules.md)
+* [Section 14: Advanced Python Modules](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_14_advanced_pyton_modules.md) -- Dec 30, 2023
 * [Section 15: Web Scraping with Python](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_15_web_scraping_with_python.md)
 * [Section 16: Working with Images with Python](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_16_working_with_images_with_python.md)
 * [Section 17: Working with PDFs and Spreadsheet CSV Files](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_17_working_with_pdfs_and_spreadsheet_csv_files.md)
