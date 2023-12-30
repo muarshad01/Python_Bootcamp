@@ -265,6 +265,28 @@ timeit.timeit(stmt,setup,number=100000)
 
 ## 113. Zipping and Unzipping Files with Python
 
+```python
+f = open('fileone.txt','w+')
+f.write('ONE FILE')
+f.close()
+```
+
+```python
+f = open('filetwo.txt','w+')
+f.write('TWO FILE')
+f.close()
+```
+
+```python
+import zipfile
+comp_file = zipfile.ZipFile('comp_file.zip','w')
+comp_file.write('fileone.txt',compress_type=zipfile.ZIP_DEFLATED)
+comp_file.write('filetwp.txt',compress_type=zipfile.ZIP_DEFLATED)
+comp_file.close()
+
+zip_obj = zipfile.ZipFile('comp_file.zip','r')
+zip_obj.extractall('extracted_content')
+```
 ***
 
 ## 114. Advanced Python Module Puzzle - Overview
