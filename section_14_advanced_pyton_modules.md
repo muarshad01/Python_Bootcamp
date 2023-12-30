@@ -177,6 +177,22 @@ random.shuffle(mylist)
 
 ## 108. Python Debugger
 
+[The Python Debugger](https://docs.python.org/3/library/pdb.html)
+
+```python
+import pdb
+
+x = [1,2,3]
+y = 2
+z = 3
+
+result_one = y + z
+
+pdb.set_trace()
+
+result_two = x + y 
+```
+
 ***
 
 ## 109. Python Regular Expressions - Part One
