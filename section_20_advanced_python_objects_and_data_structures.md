@@ -75,6 +75,25 @@ s1.union(s2)
 
 ## 141. Advanced Dictionaries
 
+```python
+d = {'k1':1,'k2':2}
+
+{k:v**2 for k,v in zip(['a','b'],range(2))}
+
+for item in d.iteritems()
+    print item
+
+for key in d.iterkeys():
+    print key
+
+for value in d.itervalues():
+    print value
+
+d.viewitems()
+d.viewkeys()
+d.viewvalues()
+```
+
 ***
 
 ## 142. Advanced Lists
