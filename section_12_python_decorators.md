@@ -49,7 +49,7 @@ def other(some_other_func):
     print(some_other_func())
 ```
 
-```pyton
+```python
 hello()
 other(hello)
 ```
@@ -75,7 +75,7 @@ def func_needs_decorator():
     print('I want to be decorated!!')
 ```
 
-```
+```python
 func_needs_decorator()
 decorated_func = new_decorator(func_needs_decorator)
 decorated_func()
