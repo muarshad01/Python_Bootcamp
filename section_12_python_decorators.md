@@ -33,8 +33,7 @@ def cool():
 
 ```python
 some_func = cool()
-
-some_func()
+print(some_func())
 ```
 ***
 
