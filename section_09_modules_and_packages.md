@@ -26,6 +26,9 @@ from mymodule import my_func
 
 my_func()
 ```
+
+![Code Diagram for Packages](https://github.com/muarshad01/Python_Bootcamp/blob/main/images/78_modules_and_packages.png)
+
 ***
 
 ## 79. `__name__` and "__main__"
