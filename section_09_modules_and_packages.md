@@ -33,4 +33,29 @@ my_func()
 
 ## 79. `__name__` and "__main__"
 
+```python
+#one.py
+
+def func():
+    print("FUNC() IN ONE.PY")
+
+print("TOP LEVEL IN ONE.PY")
+
+if __name__ == "__name__":
+    print('ONE.PY is being run directly!')
+else:
+    print('ONE.PY has been imported!')
+```
+
+```python
+#two.py
+import one
+
+print("TOP LEVEL IN TWO.PY")
+
+if __name__ == "__name__":
+    print("TWO.PY is being run directly!")
+else:
+    print("TWO.PY has been imported!")
+```
 ***
