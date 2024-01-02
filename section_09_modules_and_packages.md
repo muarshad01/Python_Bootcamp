@@ -53,6 +53,8 @@ import one
 
 print("TOP LEVEL IN TWO.PY")
 
+one.func()
+
 if __name__ == "__name__":
     print("TWO.PY is being run directly!")
 else:
