@@ -14,6 +14,18 @@ pip install openpyxl
 
 ## 78. Modules and Packages
 
+* Create file `mymodule.py`
+```python
+def my_func():
+    print('Hey I'm in mymodule.py')
+```
+
+* Create file `myprogram.py`
+```python
+from mymodule import my_func
+
+my_func()
+```
 ***
 
 ## 79. `__name__` and "__main__"
