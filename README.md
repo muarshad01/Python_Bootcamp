@@ -10,7 +10,7 @@
 * [Section 6: Methods and Functions](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_06_methods_and_functions.md) -- Dec. 22, 2023
 * [Section 7: Milestone Project-1](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_07_milestone_project-1.md)
 * [Section 8: Object Oriented Programming](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_08_object_oriented_programming.md) -- Dec 26, 2023
-* [Section 9: Modules and Packages](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_09_modules_and_packages.md)
+* [Section 9: Modules and Packages](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_09_modules_and_packages.md) -- January 02, 2024
 * [Section 10: Errors and Exception Handling](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_10_erros_and_exceptions_handling.md)
 * [Section 11: Milestone Project-2](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_11_milestone_project-2.md)
 * [Section 12: Python Decorators](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_12_python_decorators.md) -- Jan 01, 2024
