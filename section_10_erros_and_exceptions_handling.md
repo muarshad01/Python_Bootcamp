@@ -61,8 +61,44 @@ def ask_for_int():
 
 ## 84. `Pylint` Overview
 
+* `pylint`: This is a library that looks at your code and reports back possible issues.
+* `unittest`: This built-in library will allow to test your own programs and check you are getting desired outputs.
+* Python as a set of style convention rules known as **PEP 8**
+
+```
+pip install pylint
+```
 ***
 
 ## 85. Running tests with the Unittest Library
 
+* Create cap.py
+```python
+def cap_text(text):
+    '''
+    Input a string
+    Output the capital
+    '''
+    return text.title()
+```
+
+```python
+import unittest
+import cap
+
+class TestCap(unittest.TestCase):
+
+    test_one_word(self):
+        text = 'python'
+        result = cap.cap_text(text)
+        self.assertEqual(result,'Python')
+
+    test_multiple_words(self):
+        text = 'monty python'
+        result = cap.cap_text(text)
+        self.assertEqual(result,'Monty Python')
+
+if __name__=='__main__':
+    unittest.main()
+```
 ***
