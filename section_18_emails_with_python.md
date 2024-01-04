@@ -8,6 +8,36 @@
 gmail - smtp.gmail.com
 ```
 
+```python
+import smtplib
+
+smtp_object = smtplib.SMTP('smtp.gmail.com,587')
+
+smtp_object.ehlo()
+
+smtp_object.starttls()
+
+password = input('What is your password: ')
+
+import getpass
+
+password = getpass.getpass('Password please: ')
+
+email = getpass.getpass("Email: ")
+password = getpass.getpass("Password: ")
+smtp_object.login(email,password)
+```
+
+```python
+from_address = email
+to_address = email
+subject = input("enter the subject line: ")
+message = input("enter the body message: ")
+msg = "Subject:"+subject+'\n'+message
+
+smtp_object.quit()
+```
+
 ***
 
 ## 136. Receiving Emails with Python
