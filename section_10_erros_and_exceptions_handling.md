@@ -72,7 +72,8 @@ pip install pylint
 
 ## 85. Running tests with the Unittest Library
 
-* Create cap.py
+* Create `cap.py`
+
 ```python
 def cap_text(text):
     '''
@@ -81,6 +82,8 @@ def cap_text(text):
     '''
     return text.title()
 ```
+
+* Create `test_cap.py`
 
 ```python
 import unittest
