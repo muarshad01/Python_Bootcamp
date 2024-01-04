@@ -14,7 +14,7 @@ else:
 
 ***
 
-```pyton
+```python
 try:
     f = open('testfile','w')
     f.write("Write a test line")
