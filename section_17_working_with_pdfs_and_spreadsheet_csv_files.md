@@ -67,6 +67,46 @@ f.close()
 ## 131. Working with PDF Files in Python
 
 * PDF - Portable Document Format
+
+* `PyPDF2` 
+* `pip install PyPDF2`
+
+```python
+import PyPDF2
+
+f = open('Working_Business_Proposal.pdf','rb')
+
+pdf_reader = PyPDF2.pdfFileReader(f)
+
+pdf_reader.numPages
+
+page_one = pdf_reader.getPage(0)
+
+page_one_text = page_one.extractText()
+
+page_one_text
+
+f.close()
+```
+
+***
+
+```python
+pdf_writer = PyPDF2.PdfFileWriter()
+
+type(first_page)
+
+pdf_writer.addPage(first_page)
+
+pdf_output = open('Some_BrandNew_Doc.pdf','wb')
+
+pdf_writer.write(pdf_output)
+
+f.close()
+
+pdf_output.close()
+```
+
 ***
 
 ## 132. PDFs and Spreadsheets Python Puzzle Exercise
