@@ -4,6 +4,11 @@
 
 ## 130. Working with CSV Files in Python
 
+### Useful libraries
+* `Pandas`
+* `Openpyxl`
+* https://python-excel.org
+
 ***
 
 ## 131. Working with PDF Files in Python
