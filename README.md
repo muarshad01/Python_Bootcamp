@@ -28,6 +28,13 @@
 
 ***
 
+## TODO
+
+* Python & Postgres
+* Python & RESTful API
+
+***
+
 ## NOTES
 
 * Python is `dynamically typed`, which means I don't need to specify beforehand what data type I expect for `num1` and `num2` to be.
