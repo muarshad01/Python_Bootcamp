@@ -4,7 +4,10 @@
 
 ## 130. Working with CSV Files in Python
 
+* CSV - Comma Separated Variables
+
 ### Useful libraries
+
 * `Pandas`
 * `Openpyxl`
 * https://python-excel.org
@@ -63,6 +66,7 @@ f.close()
 
 ## 131. Working with PDF Files in Python
 
+* PDF - Portable Document Format
 ***
 
 ## 132. PDFs and Spreadsheets Python Puzzle Exercise
