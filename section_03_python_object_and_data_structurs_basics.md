@@ -11,7 +11,7 @@
     * lists are ordered sequence of objects
 * `dict`    - {"mykey":"value","name":"Frankie"}
 * `tuples`  - (10,"hello",200.3)
-    * ordered immutable sequence of objects
+    * ordered _immutable_ sequence of objects
 * `set` - {"a","b"}
 
 ***
