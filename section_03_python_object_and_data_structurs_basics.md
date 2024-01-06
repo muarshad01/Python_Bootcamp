@@ -1,13 +1,18 @@
 ## 11. Introduction to Python Data Types
 
-* `int`   - 3,300,300
-* `float` - 2.3, 4.6, 100.0
-* `str`   - "hello", 'Sammy', "2000"
-* `list`  - [10,"hello",200.3]
-* `dict`  - {"mykey":"value","name":"Frankie"}
-* `tup`   - (10,"hello",200.3)
-* `set`   - {"a","b"}
-* `bool`  - True or False
+### Data Types
+* `int`     - 3,300,300
+* `float`   - 2.3, 4.6, 100.0
+* `str`     - "hello", 'Sammy', "2000"
+* `bool`    - True or False
+
+### Data Structures
+* `list`    - [10,"hello",200.3]
+    * lists are ordered sequence of objects
+* `dict`    - {"mykey":"value","name":"Frankie"}
+* `tuples`  - (10,"hello",200.3)
+    * ordered immutable sequence of objects
+* `set` - {"a","b"}
 
 ***
 
