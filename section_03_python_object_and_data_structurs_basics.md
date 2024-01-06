@@ -1,8 +1,11 @@
 ## 11. Introduction to Python Data Types
 
 ### Data Types
-* `int`     - 3,300,300
-* `float`   - 2.3, 4.6, 100.0
+* Numbers
+    * `int` - 3,300,300
+        * whole numbers
+    * `float`   - 2.3, 4.6, 100.0
+        * numbers with a decimal
 * `str`     - "hello", 'Sammy', "2000"
 * `bool`    - True or False
 
