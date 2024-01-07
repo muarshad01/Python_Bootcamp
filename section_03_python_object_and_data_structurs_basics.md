@@ -1,6 +1,7 @@
 ## 11. Introduction to Python Data Types
 
 ### Data Types
+
 * Numbers
     * `int` - 3,300,300
         * whole numbers
@@ -10,6 +11,7 @@
 * `bool`    - True or False
 
 ### Data Structures
+
 * `list`    - [10,"hello",200.3]
     * lists are ordered sequence of objects
 * `dict`    - {"mykey":"value","name":"Frankie"}
@@ -29,9 +31,9 @@
 
 ## 14. Variable Assignments
 
-* Python uses *Dynamic Typing*
+* Python uses **Dynamic Typing**
     * This means you can reassign variables to different data types
-    * This is different that other languages that are *Statically Types*
+    * This is different that other languages that are **Statically Typed**
 
 ***
 
