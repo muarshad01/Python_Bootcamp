@@ -47,6 +47,25 @@ my_dogs = ["Sammy","Frankie"]
 
 ## 15. Introduction to Strings
 
+* Strings are sequence of characters, using the syntax of single quotes or double quotes:
+```python
+'hello'
+"Hello"
+"I don't do that"
+```
+
+### Indexing Strings
+```python
+Character:     h  e  l  l  o
+index:         0  1  2  3  4
+Reverse Index: 0 -4 -3 -2 -1
+```
+### Slicing Sentax
+* `[start:stop:step]`
+* **start** is a numerical index for the slice start
+* **stop** is the index you'll go up to (but not include)
+* step is the size of "jump" you take.
+
 ***
 
 ## 16. Indexing and Slicing with Strings
