@@ -35,6 +35,14 @@
     * This means you can reassign variables to different data types
     * This is different that other languages that are **Statically Typed**
 
+```python
+my_dogs = 2
+
+my_dogs = ["Sammy","Frankie"]
+```
+
+* `type(variable_name)`
+
 ***
 
 ## 15. Introduction to Strings
