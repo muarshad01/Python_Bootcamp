@@ -49,3 +49,10 @@
 def add_nums(num1, num2):
     return num1 + num2
 ```
+
+***
+
+## Useful Links
+* [The official Python Tutorial](https://docs.python.org/3/tutorial/)
+
+***
