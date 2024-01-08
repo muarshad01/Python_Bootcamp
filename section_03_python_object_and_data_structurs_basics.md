@@ -74,6 +74,18 @@ Reverse Index: 0 -4 -3 -2 -1
 
 ## 17. String Properties and Methods
 
+* String are not mutable.
+    * You can't use indexing to change individual elements of a string
+
+```python
+name = "Sam"
+# name[0] = 'P'
+
+last_letters = name[1:]
+
+'P' + last_tetters
+```
+
 ***
 
 ## 18. Strings - FAQ
@@ -81,6 +93,41 @@ Reverse Index: 0 -4 -3 -2 -1
 ***
 
 ## 19. Print Formatting with Strings
+
+* String interpolation
+
+### Two methods
+
+* `.format()`
+
+```python
+'String here {} then also {}'.format('something1','something2')
+
+print('This is a string{}'.format('INSERTED'))
+
+print('The {} {} {}'.format('fox','brown','quick'))
+
+print('The {q} {b} {f}'.format('f=fox','b=brown','q=quick'))
+```
+
+```python
+result = 100/777
+
+
+<!-- Float formatting follows "{value:width.precision f}"-->
+print("The result was {r:1.3f}".format(r=result))
+```
+* `f-strings` (formatted string literals)
+
+```python
+name = "Jose"
+print('Hello, his name is {}'.format(name))
+print(f'Hello, his name is {name}')
+
+name = "Sam"
+age = 3
+print(f'{name} is {age} years old.')
+```
 
 ***
 
