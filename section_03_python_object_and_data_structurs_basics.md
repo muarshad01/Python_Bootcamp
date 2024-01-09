@@ -281,4 +281,9 @@ with open('write_to_file.txt',mode='w') as f:
 
 ## 31. Python Objects and Data Structures Assessment Test Solutions
 
+
+* `Strings`: Ordered sequence of characters
+* `Lists`:   Ordered sequence of objects (mutable)
+* `Tuples`:  Ordered sequence of objects (immutable)
+* `Dictionary`: Key-value pairing that is unordered
 ***
