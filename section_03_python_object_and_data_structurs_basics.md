@@ -187,6 +187,14 @@ d.items()
 
 ## 25. Tuples with Python
 
+* Tuples are very similar to lists. However, they've one key difference - immutability.
+* Once an element is inside a tuple, it can not be reassigned.
+* Tuples use parenthesis `(1,2,3)`
+
+* Q: What you're going to be using tuples for mainly?
+    * Manily beneficial once you're passing around objects in your program and you need to make sure that they don't accidentally get changed.
+    * So, it provides a very convenient source of what's knows as data integrity.
+
 ***
 
 ## 26. Sets in Python
