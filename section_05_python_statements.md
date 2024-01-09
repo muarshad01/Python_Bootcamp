@@ -1,4 +1,13 @@
-## 34. If Elif and Else Statements in Python
+## 34. `If Elif` and `Else` Statements in Python
+
+```python
+if some_condition:
+    # execute some code
+elif some_other_condition:
+    # do something different
+else:
+    # do something else
+```
 
 ***
 
