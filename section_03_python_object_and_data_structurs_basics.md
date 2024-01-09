@@ -168,6 +168,9 @@ my_list.reverse()
 
 ## 23. Dictionaries in Python
 
+* Dictionaries are unordered mappings
+* key-value pairings
+
 ***
 
 ## 24. Dictionaries - FAQ
