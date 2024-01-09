@@ -137,6 +137,29 @@ print(f'{name} is {age} years old.')
 
 ## 21. Lists in Python
 
+* Ordered sequences that can hold a variety of types
+
+```python
+my_list = [1,2,3]
+my_list = ['STRING',100,23.2]
+len(my_list)
+```
+
+```python
+my_list = ['one','two','three']
+another_list = ['four','five']
+new_list = my_list + another_list
+new_list
+
+new_list.append('six')
+new_list.pop()
+```
+
+```python
+my_list = [7,2,9]
+my_list.sort()
+my_list.reverse()
+```
 ***
 
 ## 22. Lists - FAQ
