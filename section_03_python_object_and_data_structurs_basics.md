@@ -214,6 +214,8 @@ set(mylist)
 
 ## 27. Booleans in Python
 
+* `True` of `False`
+
 ***
 
 ## 28. I/O with Basic Files in Python
