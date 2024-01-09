@@ -199,6 +199,17 @@ d.items()
 
 ## 26. Sets in Python
 
+* Sets are unordered collections of unique elements.
+
+```python
+myset = set()
+myset.add(1)
+myset.add(2)
+myset.add(3)
+
+mylist = [1,1,2,2,2,3,3,3,3,3]
+set(mylist)
+```
 ***
 
 ## 27. Booleans in Python
