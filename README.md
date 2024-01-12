@@ -12,7 +12,7 @@
 * [Section 4: Python Comparison Operators](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_04_python_comparison_operatos.md) -- January 09, 2024t
 * [Section 5: Python Statements](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_05_python_statements.md) -- January 11, 2024
 * [Section 6: Methods and Functions](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_06_methods_and_functions.md) -- Dec. 22, 2023
-* [Section 7: Milestone Project-1](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_07_milestone_project-1.md)
+* [Section 7: Milestone Project-1](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_07_milestone_project-1.md) -- January 11, 2024
 * [Section 8: Object Oriented Programming](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_08_object_oriented_programming.md) -- Dec 26, 2023
 * [Section 9: Modules and Packages](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_09_modules_and_packages.md) -- January 02, 2024
 * [Section 10: Errors and Exception Handling](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_10_erros_and_exceptions_handling.md) -- January 03, 2024
