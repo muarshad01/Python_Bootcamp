@@ -114,6 +114,53 @@ for letter in mystring:
 
 ## 37. Useful Operators in Python
 
+```python
+list(range(0,11,2))
+```
+
+```python
+index_count = 0
+
+for letter in 'abcde':
+    print('At index {} the letter is{}'.format(index_count,letter))
+    index_count += 1
+```
+
+```python
+word = 'abcde'
+
+for item in enumerate(word):
+    print(item)
+```
+
+```python
+mylist1 = [1,2,3]
+mylist2 = ['a','b','c']
+mylist3 = [100,200,300]
+
+for item in zip(mylist1,mylist2,mylist3):
+    print(item)
+
+list(zip(mylist1,mylist2))
+```
+
+
+```python
+from random import shuffle
+
+mylist = [1,2,3,4,5,6,7,8,9,10]
+shuffle(mylist)
+```
+
+```python
+from random import randint
+
+randint(0,100)
+```
+
+```python
+result = int(input('Favourite Number: '))
+```
 ***
 
 ## 38. List Comprehensions in Python
