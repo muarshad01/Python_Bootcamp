@@ -14,9 +14,9 @@
 
 * `list`    - [10,"hello",200.3]
     * lists are ordered sequence of objects
-* `dict`    - {"mykey":"value","name":"Frankie"}
 * `tuples`  - (10,"hello",200.3)
-    * ordered _immutable_ sequence of objects
+    * tuples are ordered _immutable_ sequence of objects
+* `dict`    - {"mykey":"value","name":"Frankie"}
 * `set` - {"a","b"}
 
 ***
