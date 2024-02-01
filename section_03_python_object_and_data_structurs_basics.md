@@ -3,21 +3,21 @@
 ### Data Types
 
 * Numbers
-    * `int` - 3,300,300
+    * `int` - 3,300,4000
         * whole numbers
-    * `float`   - 2.3, 4.6, 100.0
+    * `float` - 2.3, 4.6, 100.0
         * numbers with a decimal
-* `str`     - "hello", 'Sammy', "2000"
-* `bool`    - True or False
+* `str` - "hello", 'Sammy', "2000"
+* `bool` - True or False
 
 ### Data Structures
 
-* `list`    - [10,"hello",200.3]
-    * lists are ordered sequence of objects
-* `tuples`  - (10,"hello",200.3)
+* `list` - [10, "hello", 200.3]
+    * lists are ordered mutable sequence of objects
+* `tuples` - (10, "hello", 200.3)
     * tuples are ordered _immutable_ sequence of objects
-* `dict`    - {"mykey":"value","name":"Frankie"}
-* `set` - {"a","b"}
+* `dict` - {"mykey":"value", "name":"Frankie"}
+* `set` - {"a", "b"}
 
 ***
 
