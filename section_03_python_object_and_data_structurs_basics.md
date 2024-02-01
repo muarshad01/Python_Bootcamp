@@ -13,11 +13,11 @@
 ### Data Structures
 
 * `list` - [10, "hello", 200.3]
-    * lists are ordered mutable sequence of objects
+   * List items are ordered, changeable, and allow duplicate values.
 * `tuples` - (10, "hello", 200.3)
-    * tuples are ordered _immutable_ sequence of objects
-* `dict` - {"mykey":"value", "name":"Frankie"}
+   * Tuple items are ordered, unchangeable, and allow duplicate values.
 * `set` - {"a", "b"}
+   * A set is unordered, unchangeable, and unindexed.
 
 ***
 
