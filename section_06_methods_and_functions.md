@@ -72,49 +72,48 @@ Out: 3
 
 ```python
 def even_check(number):
-    return number % 2 == 0
+   return number % 2 == 0
 ```
 
 ```python
 # Return True if ANY number is even inside a list
 
 def check_even_list(num_list):
-    for number in num_list:
-        if number % 2 == 0:
-            return True
-        else:
-            pass
-    
+   for number in num_list:
+      if number % 2 == 0:
+         return True
+      else:
+         pass
 ```
 
 ```python
 # Return True if ANY number is even inside a list
 
 def check_even_list(num_list):
-    for number in num_list:
-        if number % 2 == 0:
-            return True
-        else:
-            pass
+   for number in num_list:
+      if number % 2 == 0:
+         return True
+      else:
+         pass
 
-    return False    
+   return False    
 ```
 * How you can have multiple returns inside a function.
 
 ```python
 def check_even_list(num_list):
-    # return all the even numbers in a list
+   # return all the even numbers in a list
 
-    # placeholder variables
-    even_numbers = []
+   # placeholder variables
+   even_numbers = []
 
-    for number in num_list:
-        if number % 2 == 0:
-            even_numbers.append(number)
-        else:
-            pass
+   for number in num_list:
+      if number % 2 == 0:
+         even_numbers.append(number)
+      else:
+         pass
 
-    return even_numbers
+   return even_numbers
 ```
 
 ***
@@ -125,10 +124,10 @@ def check_even_list(num_list):
 stock_prices = [('APPL',200),('GOOG',400),('MSFT',100)]
 
 for item in stock_prices:
-    print(item)
+   print(item)
 
-for ticker,price in stock_prices:
-    print(ticker)
+for ticker, price in stock_prices:
+   print(ticker)
 ```
 
 ```python
@@ -136,15 +135,15 @@ work_hours = [('Abby'100),('Billy',4000),('Cassie',800)]
 
 def employee_check(work_hours):
 
-    current_max = 0
-    employee_of_month = ''
+   current_max = 0
+   employee_of_month = ''
 
-    for employee, hours in work_hours:
-        if hours > current_max:
-            current_max = hours
-            employee_of_month = employee
-        else:
-            pass
+   for employee, hours in work_hours:
+      if hours > current_max:
+         current_max = hours
+         employee_of_month = employee
+      else:
+         pass
 
     # Return
     return (employee_of_month, current_max)
