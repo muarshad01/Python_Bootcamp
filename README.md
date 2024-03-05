@@ -50,11 +50,11 @@ def add_nums(num1, num2):
     return num1 + num2
 ```
 * Everything in Python is `public`
-   * Instead of `private`, Python has a notion of a `non-public instance variable`. Any variable which starts with an `underscore (_)` character is defined to be `non-public`. This naming convention makes it harder to access a variable, but it’s only a naming convention, and you can still access the variable directly.
-   * Python further recognizes using `double underscore characters (__)` in front of a variable to `conceal an attribute in Python`. When Python sees a double underscore variable, it changes the variable name internally to make it difficult to access directly. This mechanism avoids accidents but still doesn’t make data impossible to access.
-   * When Python sees an `attribute with double underscores (__name)`, it changes the attribute by `prefixing the original name of the attribute with an underscore, followed by the class name(_class_name__name)`. To use the attribute directly, you need to change the name you use as well.
+   * Instead of `private`, Python has a notion of a `non-public` instance variable. Any variable which starts with an `underscore (_)` character is defined to be `non-public`. This naming convention makes it harder to access a variable, but it’s only a naming convention, and you can still access the variable directly.
+   * Python further recognizes using `double underscore characters (__)` in front of a variable to `conceal an attribute in Python`. When Python sees a double underscore variable, it changes the variable name internally to make it difficult to access directly. This mechanism avoids accidents but still doesn’t make data impossible to access. When Python sees an `attribute with double underscores (__name)`, it changes the attribute by `prefixing the original name of the attribute with an underscore, followed by the class name(_class_name__name)`. To use the attribute directly, you need to change the name you use as well.
    * Python `supports multiple inheritance`, or creating classes that inherit behavior from more than one parent class.
    * In contrast to Java’s strict variable typing, Python uses a concept called `duck typing`, which in basic terms means that if a variable `“walks like a duck and quacks like a duck, then it’s a duck.”` Instead of identifying objects by type, Python examines their behavior. You can learn more about the Python type system, and duck typing, [in The Ultimate Guide to Python Type Checking](https://realpython.com/python-type-checking/).
+
 ***
 
 ## Useful Links
