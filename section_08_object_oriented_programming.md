@@ -293,7 +293,7 @@ mycyl.surface_area()
 ## 76. OOP - Challenge Solution
 
 ```python
-class Account:
+class Account():
 
     def __init__(self, owner, balance=0):
         self.owner = owner
@@ -311,7 +311,7 @@ class Account:
             print("Sorry, not enough funds.")
 
     def __str__(self):
-        return f"Owner {self.owner} \nBalance {self.balance}"
+        return f'Owner {self.owner} \nBalance {self.balance}'
 ```
 
 ***
