@@ -7,13 +7,13 @@
 ```python
 class NameOfClass():
 
-  def __init__(self, param1, param2):
-    self.param1 = param1
-    self.param2 = param2
+    def __init__(self, param1, param2):
+        self.param1 = param1
+        self.param2 = param2
 
-  def some_method(self):
-    # perform some action
-    print(self.param1)
+    def some_method(self):
+        # perform some action
+        print(self.param1)
 ```
 
 ***
@@ -26,15 +26,15 @@ class NameOfClass():
 ```python
 class Dog():
 
-  def __init__(self, breed, name, spots):
-    # Attributes
-    # We take in the argument
-    # Assign in using self.attribute_name
-    self.breed = breed
-    self.name = name
+    def __init__(self, breed, name, spots):
+        # Attributes
+        # We take in the argument
+        # Assign in using self.attribute_name
+        self.breed = breed
+        self.name = name
 
-    # Expect boolean True/False
-    self.spots = spots
+        # Expect boolean True/False
+        self.spots = spots
 ```
 
 ```python
@@ -53,22 +53,18 @@ my_god.spots
 ## 70. OOP - Class Object Attributes and Methods
 
 ```python
-class Dog():
+class Dog:
 
     # CLASS ATTRIBUTE
-    # SAME FOR ANY INSTANCE OF A CLASS
-    species = 'mammal'
+    species = "mammal"
 
-   def __init__(self, breed, name):
-      # Attributes
-      # We take in the argument
-      # Assign in using self.attribute_name
-      self.breed = breed
-      self.name = name
+    def __init__(self, breed, name):
+        self.breed = breed
+        self.name = name
 
     # OPERATIONS / Actions -> Methods
     def bark(self, number):
-      print('Woof! My name is {}.format(self.name, number))
+        print("Woof! My name is {}".format(self.name), number)
 ```
 
 ```python
@@ -107,6 +103,7 @@ my_circle.circumference()
 
 ```python
 class Animal():
+
     def __init__(self):
         print("ANIMAL CREATED")
     
@@ -139,7 +136,7 @@ class Dog(Animal):
 ```python
 class Dog():
 
-    def __init__(self,name):
+    def __init__(self, name):
         self.name = name
 
     def speak(self):
@@ -149,7 +146,7 @@ class Dog():
 ```python
 class Cat():
 
-    def __init__(self,name):
+    def __init__(self, name):
         self.name = name
 
     def speak(self):
