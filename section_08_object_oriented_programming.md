@@ -42,7 +42,7 @@ my_god.name
 my_god.spots
 ```
 
-* By convention, the parameter_name and attribute_name are the same.
+* By convention, the `parameter_name` and `attribute_name` are the same.
 
 ***
 
