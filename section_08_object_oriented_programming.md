@@ -1,18 +1,18 @@
 ## 68. OOP - Introduction
 
 * Objects
-    * Methods
-    * Attributes
+   * Methods
+   * Attributes
 
 ```python
 class NameOfClass():
-    def __init__(self,param1,param2):
-        self.param1 = param1
-        self.param2 = param2
+   def __init__(self,param1,param2):
+      self.param1 = param1
+      self.param2 = param2
 
-    def some_method(self):
-        # perform some action
-        print(self.param1)
+   def some_method(self):
+      # perform some action
+      print(self.param1)
 ```
 
 ***
@@ -24,15 +24,15 @@ class NameOfClass():
 
 ```python
 class Dog():
-    def __init__(self,breed,name,spots):
-        # Attributes
-        # We take in the argument
-        # Assign in using self.attribute_name
-        self.breed = breed
-        self.name = name
+   def __init__(self,breed,name,spots):
+      # Attributes
+      # We take in the argument
+      # Assign in using self.attribute_name
+      self.breed = breed
+      self.name = name
 
-        # Expect boolean True/False
-        self.spots = spots
+      # Expect boolean True/False
+      self.spots = spots
 ```
 
 ```python
@@ -53,21 +53,20 @@ my_god.spots
 ```python
 class Dog():
 
-    # CLASS OBJECT ATTRIBUTE
+    # CLASS ATTRIBUTE
     # SAME FOR ANY INSTANCE OF A CLASS
     species = 'mammal'
 
-    def __init__(self,breed,name):
-
-        # Attributes
-        # We take in the argument
-        # Assign in using self.attribute_name
-        self.breed = breed
-        self.name = name
+   def __init__(self,breed,name):
+      # Attributes
+      # We take in the argument
+      # Assign in using self.attribute_name
+      self.breed = breed
+      self.name = name
 
     # OPERATIONS / Actions -> Methods
     def bark(self,number):
-        print("Woof! My name is {}".format(self.name,number))
+      print('Woof! My name is {}.format(self.name,number))
 ```
 
 ```python
@@ -78,11 +77,10 @@ my_dog.bark(10)
 ```python
 class Circle():
 
-    # CLASS OBJECT ATTRIBUTE
+    # CLASS ATTRIBUTE
     pi = 3.14
 
     def __init__(self,radius=1):
-
         self.radius = radius
         self.area = Circle.pi * radius * radius
 
