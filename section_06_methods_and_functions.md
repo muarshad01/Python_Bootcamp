@@ -26,13 +26,13 @@ Out: [1, 2, 3]
 
 ```python
 def name_of_function():
-    ```
+    '''
     Docstring explains function.
-    ```
+    '''
     print('Hello')
 
->> name_of_function()
->> Hello
+name_of_function()
+Out: Hello
 ```
 
 * Note: Everything inside the function is indented
