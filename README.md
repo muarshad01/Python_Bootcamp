@@ -49,7 +49,8 @@
 def add_nums(num1, num2):
     return num1 + num2
 ```
-
+* Everything in Python is `public`
+   * Instead of `private`, Python has a notion of a `non-public instance variable`. Any variable which starts with an `underscore (_)` character is defined to be `non-public`. This naming convention makes it harder to access a variable, but it’s only a naming convention, and you can still access the variable directly.
 ***
 
 ## Useful Links
