@@ -12,6 +12,7 @@ class NameOfClass():
         self.param1 = param1
         self.param2 = param2
 
+    # instance method
     def some_method(self):
         print(self.param1)
 ```
@@ -58,7 +59,7 @@ class Dog:
         self.breed = breed
         self.name = name
 
-    # method
+    # instance method
     def bark(self, number):
         print("Woof! My name is {}".format(self.name), number)
 ```
@@ -78,7 +79,7 @@ class Circle():
         self.radius = radius
         self.area = Circle.pi * radius * radius
 
-    # Method
+    # instance method
     def circumference(self):
         return 2 * Circle.pi * self.radius
 ```
