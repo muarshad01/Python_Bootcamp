@@ -8,7 +8,7 @@
 class NameOfClass():
 
     def __init__(self, param1, param2):
-        # Atttributes
+        # instance variables
         self.param1 = param1
         self.param2 = param2
 
@@ -27,7 +27,7 @@ class NameOfClass():
 class Dog():
 
     def __init__(self, breed, name, spots):
-        # Attributes
+        # instance variables
         self.breed = breed
         self.name = name
         self.spots = spots
@@ -51,14 +51,14 @@ my_god.spots
 ```python
 class Dog:
 
-    # CLASS VARIABLE / ATTRIBUTE
+    # class variable
     species = "mammal"
 
     def __init__(self, breed, name):
         self.breed = breed
         self.name = name
 
-    # Method
+    # method
     def bark(self, number):
         print("Woof! My name is {}".format(self.name), number)
 ```
@@ -71,7 +71,7 @@ my_dog.bark(10)
 ```python
 class Circle():
 
-    # CLASS VARIABLE / ATTRIBUTE
+    # class variable
     pi = 3.14
 
     def __init__(self, radius=1):
@@ -265,7 +265,7 @@ line.slope()
 ```python
 class Cylinder():
 
-    # CLASS VARIABLE / ATTRIBUTE
+    # class variables
     pi = 3.14
   
     def __init__(self, height=1, radius=1):
