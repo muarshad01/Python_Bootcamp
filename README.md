@@ -53,6 +53,8 @@ def add_nums(num1, num2):
 ***
 
 ## Useful Links
-* [The official Python Tutorial](https://docs.python.org/3/tutorial/)
 
+* [The official Python Tutorial](https://docs.python.org/3/tutorial/)
+* [Object-Oriented Programming in Python vs Java](https://realpython.com/oop-in-python-vs-java/)
+  
 ***
