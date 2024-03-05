@@ -27,13 +27,8 @@ class NameOfClass():
 class Dog():
 
     def __init__(self, breed, name, spots):
-        # Attributes
-        # We take in the argument
-        # Assign in using self.attribute_name
         self.breed = breed
         self.name = name
-
-        # Expect boolean True/False
         self.spots = spots
 ```
 
@@ -62,7 +57,7 @@ class Dog:
         self.breed = breed
         self.name = name
 
-    # OPERATIONS / Actions -> Methods
+    # Method
     def bark(self, number):
         print("Woof! My name is {}".format(self.name), number)
 ```
@@ -178,7 +173,7 @@ pet_speak(felix)
 ```python
 class Animal():
     
-    def __init__(self,name):
+    def __init__(self, name):
         self.name = name
 
     def speak(self):
@@ -298,25 +293,25 @@ mycyl.surface_area()
 ## 76. OOP - Challenge Solution
 
 ```python
-class Account():
+class Account:
 
-  def __init__(self, owner, balance=0):
-    self.owner = owner
-    self.balance = balance
+    def __init__(self, owner, balance=0):
+        self.owner = owner
+        self.balance = balance
 
-  def deposit(self, dep_amt):
-    self.balance += dep_amt
-    print(f"Added {dep_amt} to the balance.")
+    def deposit(self, dep_amt):
+        self.balance += dep_amt
+        print(f"Added {dep_amt} to the balance.")
 
-  dep withdraw(self, wd_amt):
-    if self.balance >= wd_amt:
-      self.balance -= wd_amt
-      print("Withdrawal accepted.")
-    else:
-      print("Sorry, not enough funds.")
+    def withdraw(self, wd_amt):
+        if self.balance >= wd_amt:
+            self.balance -= wd_amt
+            print("Withdrawal accepted.")
+        else:
+            print("Sorry, not enough funds.")
 
-  def __str__(self):
-    return f'Owner {self.owner} \nBalance {self.balance}
+    def __str__(self):
+        return f"Owner {self.owner} \nBalance {self.balance}"
 ```
 
 ***
