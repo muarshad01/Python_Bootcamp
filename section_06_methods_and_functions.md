@@ -46,8 +46,8 @@ Out: Hello
 def name_of_function(name='Default'):
     print(f'Hello {name}')
 
->> name_of_function('James')
->> Hello James
+name_of_function('James')
+Out: Hello James
 ```
 ***
 
@@ -57,10 +57,9 @@ def name_of_function(num1, num2):
 ```
 
 ```python
->> result = name_of_function(1,2)
->> 
->> print result
->> 3
+result = name_of_function(1, 2) 
+print result
+Out: 3
 ```
 
 ***
