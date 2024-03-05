@@ -8,11 +8,11 @@
 class NameOfClass():
 
     def __init__(self, param1, param2):
+        # Atttributes
         self.param1 = param1
         self.param2 = param2
 
     def some_method(self):
-        # perform some action
         print(self.param1)
 ```
 
@@ -27,6 +27,7 @@ class NameOfClass():
 class Dog():
 
     def __init__(self, breed, name, spots):
+        # Attributes
         self.breed = breed
         self.name = name
         self.spots = spots
@@ -50,7 +51,7 @@ my_god.spots
 ```python
 class Dog:
 
-    # CLASS ATTRIBUTE
+    # CLASS VARIABLE / ATTRIBUTE
     species = "mammal"
 
     def __init__(self, breed, name):
@@ -70,7 +71,7 @@ my_dog.bark(10)
 ```python
 class Circle():
 
-    # CLASS ATTRIBUTE
+    # CLASS VARIABLE / ATTRIBUTE
     pi = 3.14
 
     def __init__(self, radius=1):
