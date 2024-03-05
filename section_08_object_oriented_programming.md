@@ -1,8 +1,8 @@
 ## 68. OOP - Introduction
 
-* Objects
-   * Methods
-   * Attributes
+### Objects
+* Methods
+* Attributes
 
 ```python
 class NameOfClass():
@@ -20,8 +20,8 @@ class NameOfClass():
 
 ## 69. OOP - Attributes and Class Keyword
 
-* The class is blueprint for creating objects.
-* An object is an instance of a class.
+* The `class` is blueprint for creating objects.
+* An `object` is an instance of a class.
 
 ```python
 class Dog():
