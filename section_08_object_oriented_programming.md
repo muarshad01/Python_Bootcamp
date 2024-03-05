@@ -18,7 +18,7 @@ class NameOfClass():
 
 ***
 
-## 69. OOP - Attributes and Class Keyword
+## 69. OOP - Object Attributes and `class` Keyword
 
 * The `class` is blueprint for creating objects.
 * An `object` is an instance of a class.
@@ -45,7 +45,7 @@ my_god.spots
 
 ***
 
-## 70. OOP - Class Object Attributes and Methods
+## 70. OOP - Class Attributes and Methods
 
 ```python
 class Dog:
