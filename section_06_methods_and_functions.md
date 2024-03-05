@@ -1,12 +1,12 @@
 ## 41 Methods and the Python Documentation
 
 ```python
-In: mylist = [1,2,3]
-In: mylist.append(4)
-In: mylist
+mylist = [1,2,3]
+mylist.append(4)
+mylist
 Out: [1, 2, 3, 4]
 
-In: mylist.pop()
+mylist.pop()
 Out: [1, 2, 3]
 ```
 
