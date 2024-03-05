@@ -156,41 +156,42 @@ result = employee_check(work_hours)
 ## 47. Interactions between Python Functions
 
 ```python
-In: example = [1,2,3,4,5,6,7]
-In: from random import shuffle
-In: result = shuffle(example)
-In: result                      # This will not print anything
+example = [1,2,3,4,5,6,7]
+from random import shuffle
+result = shuffle(example)
+result                      # This will not print anything
 
-In: def shuffle_list(mylist):
-        shuffle(mylist)
-        return mylist
+def shuffle_list(mylist):
+   shuffle(mylist)
+   return mylist
 
-In: result = shuffle_list(example)
-In: result
+result = shuffle_list(example)
+result
 Out: [3,4,1,5,6,7,2]
 ```
 
 ```python
-In: mylist = [' ','O',' ']
-In: shuffle_list(mylist)
+mylist = [' ','O',' ']
+shuffle_list(mylist)
 Out: ['O',' ',' ']
 
-In: def player_guess():
-        guess = ' '
-        while guess not in ['0','1','2']
-            guess = input("Pick a number: 0, 1 or 2")
+def player_guess():
+   guess = ' '
+   while guess not in ['0','1','2']
+      guess = input("Pick a number: 0, 1 or 2")
 
-        return int(guess)
+   return int(guess)
 
-In: player_guess()
+player_guess()
 Out: 1
 
-In: def check_guess(mylist, guess):
-        if mylist[guess] == 'O'
-            print("Correct!")
-        else:
-            print("Wrong guess!")
-            print(mylist)
+def check_guess(mylist, guess):
+   if mylist[guess] == 'O'
+      print("Correct!")
+   else:
+      print("Wrong guess!")
+
+print(mylist)
 ```
 
 ```python
@@ -220,18 +221,18 @@ check_guess=(mixedup_list,guess)
 ## 49. `*args` and `**kwargs` in Python
 
 ```python
-In: def myfunc(*args):
-        print(args)
+def myfunc(*args):
+   print(args)
 
-In: myfunc(40,60,100,1,34)
+myfunc(40,60,100,1,34)
 ```
 
 ```python
 def myfunc(**kwargs):
-    if 'fruit' in kwargs:
-        print('My fruit of choice is{}'.format(kwargs['fruit']))
-    else:
-        print('I didn't find any fruit')
+   if 'fruit' in kwargs:
+      print('My fruit of choice is {}'.format(kwargs['fruit']))
+   else:
+      print('I didn't find any fruit')
 
 myfunc(fruti='apple',veggie='lettuce')
 ```
