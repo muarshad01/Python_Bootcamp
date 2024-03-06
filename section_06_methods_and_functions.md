@@ -26,40 +26,37 @@ Out: [1, 2, 3]
 
 ```python
 def name_of_function():
-    '''
-    Docstring explains function.
-    '''
     print('Hello')
-
-name_of_function()
-Out: Hello
+    
+if __name__ == "__main__":
+    name_of_function()
 ```
 
 * Note: Everything inside the function is indented
 * (`:`) at the end of parenthesis `()` tells that next we have an indented block of code
-* Python uses `snake-casing`, by default, for name of function, which is all lowercase with underscores between words
-* Class calls use `camel-casing`
+* Python uses `snake_casing`, by default, for name of function, which is all lowercase with underscores between words
+* Class calls use `camel_casing`
 
 ***
 
 ```python
-def name_of_function(name='Default'):
-    print(f'Hello {name}')
+def name_of_function(name="Default"):
+    print(f"Hello {name}")
 
-name_of_function('James')
-Out: Hello James
+
+if __name__ == "__main__":
+    name_of_function("James")
 ```
 ***
 
 ```python
 def name_of_function(num1, num2):
-    return num1 + num2
+   return num1 + num2
 ```
 
 ```python
 result = name_of_function(1, 2) 
 print result
-Out: 3
 ```
 
 ***
