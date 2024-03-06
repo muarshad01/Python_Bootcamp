@@ -61,5 +61,6 @@ def add_nums(num1, num2):
 
 * [The official Python Tutorial](https://docs.python.org/3/tutorial/)
 * [Object-Oriented Programming in Python vs Java](https://realpython.com/oop-in-python-vs-java/)
+* [Understanding self and cls in Python](https://grzegorz-makowski.medium.com/understanding-self-and-cls-in-python-b674f5e5951d)
   
 ***
