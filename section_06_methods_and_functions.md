@@ -221,28 +221,34 @@ check_guess=(mixedup_list,guess)
 
 ```python
 def myfunc(*args):
-   print(args)
+    print(args)
 
-myfunc(40,60,100,1,34)
+
+if __name__ == "__main__":
+    myfunc(40, 60, 100, 1, 34)
 ```
 
 ```python
 def myfunc(**kwargs):
-   if 'fruit' in kwargs:
-      print('My fruit of choice is {}'.format(kwargs['fruit']))
-   else:
-      print('I didn't find any fruit')
+    if "fruit" in kwargs:
+        print("My fruit of choice is {}".format(kwargs["fruit"]))
+    else:
+        print("I didn't find any fruit")
 
-myfunc(fruti='apple',veggie='lettuce')
+
+if __name__ == "__main__":
+    myfunc(fruit="apple", veggie="lettuce")
 ```
 
 ```python
 def myfunc(*args, **kwargs):
     print(args)
     print(kwargs)
-    print('I would like {} {}'.format(args[0], kwargs['food']))
+    print("I would like {} {}".format(args[0], kwargs["food"]))
 
-myfunc(10,20,30,fruit='orange',food='eggs')
+
+if __name__ == "__main__":
+    myfunc(10, 20, 30, fruit="orange", food="eggs")
 ```
 
 ***
@@ -262,7 +268,6 @@ myfunc(10,20,30,fruit='orange',food='eggs')
 ## 53. Function Practice - Solutions Level Two
 
 ```python
-
 def summer_69(arr):
     
     total = 0
@@ -315,41 +320,41 @@ def spy_game(nums):
 def square(num):
     return num**2
 
-my_nums = [1,2,3,4,5]
 
-for item in map(square, my_nums):
-    print(item)
-OR
+if __name__ == "__main__":
+    my_nums = [1, 2, 3, 4, 5]
+    for item in map(square, my_nums):
+        print(item)
 
-list(map(square,my_nums))
+    print(list(map(square, my_nums)))
 ```
 
 ```python
 def splicer(mystring):
-    if len(mystring)%2 == 0:
-        return 'EVEN'
+    if len(mystring) % 2 == 0:
+        return "EVEN"
     else:
         return mystring[0]
 
-names = ['Andy','Eve','Sally']
 
-list(map(splicer, names))
+if __name__ == "__main__":
+    names = ["Andy", "Eve", "Sally"]
+    print(list(map(splicer, names)))
 ```
 
 ### `filter()` function
 
 ```python
 def check_even(num):
-    return num%2 == 0
+    return num % 2 == 0
 
-mynums = [1,2,3,4,5,6]
 
-list(filter(check_even, mynums))
+if __name__ == "__main__":
+    mynums = [1, 2, 3, 4, 5, 6]
 
-OR
-
-for n in filter(check_even, mynums):
-    print (n)
+    print(list(filter(check_even, mynums)))
+    for n in filter(check_even, mynums):
+        print(n)
 ```
 
 ### Lambda function
@@ -359,7 +364,7 @@ list(map(lambda num:num**2, mynums))
 ```
 
 ```python
-list(filter(lambda num:num%2 ==0, mynumber))
+list(filter(lambda num:num%2 == 0, mynums))
 ```
 
 ```python
@@ -371,10 +376,10 @@ list(map(lambda x:x[::-1], names))
 ## 56. Nested Statements and Scope
 
 * LEGB rule format:
-    * L: Local -- Names assigned in any way within a function (def or lambda), and not declared global in that function.
-    * E: Enclosing function locals -- Names in the local scope of any and all enclosing functions (def or lambda), from inner to outer.
-    * G: Global (module) -- Names assigned at the top-level of module file, or declared global in a def within the file.
-    * B: Built-in (Python) -- Names preassigned in the built-in names module: open, range, SyntaxError, ...
+    * `L: Local` -- Names assigned in any way within a function (def or lambda), and not declared global in that function.
+    * `E: Enclosing function locals` -- Names in the local scope of any and all enclosing functions (def or lambda), from inner to outer.
+    * `G: Global (module)` -- Names assigned at the top-level of module file, or declared global in a def within the file.
+    * `B: Built-in (Python)` -- Names preassigned in the built-in names module: open, range, SyntaxError, ...
 
 ```python
 lambda num:num**2
