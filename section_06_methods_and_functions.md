@@ -387,34 +387,40 @@ lambda num:num**2
 
 ```python
 # GLOBAL
-name = 'THIS IS A GLOBAL STRING'
+name = "THIS IS A GLOBAL STRING"
+
 
 def greet():
 
     # ENCLOSING
-    name = 'Sammy'
-    
+    name = "Sammy"
+
     def hello():
         # LOCAL
-        name = 'IM a LOCAL'
-        print('Hello ' + name)
+        name = "IM a LOCAL"
+        print("Hello " + name)
 
     hello()
 
-greet()
+
+if __name__ == "__main__":
+    greet()
 ```
 
 ```python
 x = 50
 
+
 def func(x):
-    print(f'x is {x}')
+    print(f"x is {x}")
 
     # LOCAL REASSIGNMENT
     x = 200
-    print(f'I JUST LOCALLY CHANGED X TO {X}')
+    print(f"I JUST LOCALLY CHANGED X TO {X}")
 
-func(x)
+
+if __name__ == "__main__":
+    func(x)
 ```
 
 ### `global` keyword
