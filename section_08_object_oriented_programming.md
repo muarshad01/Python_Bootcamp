@@ -56,12 +56,13 @@ class Dog:
     species = "mammal"
 
     def __init__(self, breed, name):
+        # instance variable
         self.breed = breed
         self.name = name
 
     # instance method
     def bark(self, number):
-        print("Woof! My name is {}".format(self.name), number)
+        print('Woof! My name is {}'.format(self.name), number)
 ```
 
 ```python
@@ -76,6 +77,7 @@ class Circle():
     pi = 3.14
 
     def __init__(self, radius=1):
+        # instance variables
         self.radius = radius
         self.area = Circle.pi * radius * radius
 
@@ -204,6 +206,7 @@ class Cat(Animal):
 class Book():
 
    def __init__(self, title, author, pages):
+      # instance variables
       self.title = title
       self.author = author
       self.pages = pages
