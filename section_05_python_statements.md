@@ -14,9 +14,9 @@ else:
 ## 35. For Loop in Python
 
 ```python
-my_iterable = [1,2,3]
-for item_name in my_iterable:
-    print(item_name)
+mylist = [1,2,3]
+for item in mylist:
+    print(item)
 ```
 
 ```python
