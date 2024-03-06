@@ -51,12 +51,12 @@ if __name__ == "__main__":
 
 ```python
 def name_of_function(num1, num2):
-   return num1 + num2
-```
+    return num1 + num2
 
-```python
-result = name_of_function(1, 2) 
-print result
+
+if __name__ == "__main__":
+    result = name_of_function(1, 2)
+    print(result)
 ```
 
 ***
