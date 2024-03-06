@@ -76,41 +76,42 @@ def even_check(number):
 # Return True if ANY number is even inside a list
 
 def check_even_list(num_list):
-   for number in num_list:
-      if number % 2 == 0:
-         return True
-      else:
-         pass
+    for number in num_list:
+        if number % 2 == 0:
+            return True
+        else:
+            pass
 ```
 
 ```python
 # Return True if ANY number is even inside a list
 
 def check_even_list(num_list):
-   for number in num_list:
-      if number % 2 == 0:
-         return True
-      else:
-         pass
-
-   return False    
+    for number in num_list:
+        if number % 2 == 0:
+            return True
+        else:
+            pass
+    
+    return False     
 ```
+
 * How you can have multiple returns inside a function.
 
 ```python
 def check_even_list(num_list):
-   # return all the even numbers in a list
+    # return all the even numbers in a list
 
-   # placeholder variables
-   even_numbers = []
+    # placeholder variables
+    even_numbers = []
 
-   for number in num_list:
-      if number % 2 == 0:
-         even_numbers.append(number)
-      else:
-         pass
-
-   return even_numbers
+    for number in num_list:
+        if number % 2 == 0:
+            even_numbers.append(number)
+        else:
+            pass
+    
+    return even_numbers
 ```
 
 ***
@@ -132,20 +133,20 @@ work_hours = [('Abby'100),('Billy',4000),('Cassie',800)]
 
 def employee_check(work_hours):
 
-   current_max = 0
-   employee_of_month = ''
+    current_max = 0
+    employee_of_month = ''
 
-   for employee, hours in work_hours:
-      if hours > current_max:
-         current_max = hours
-         employee_of_month = employee
-      else:
-         pass
+    for employee, hours in work_hours:
+        if hours > current_max:
+            current_max = hours
+            employee_of_month = employee
+        else:
+            pass
 
     # Return
     return (employee_of_month, current_max)
 
-result = employee_check(work_hours)    
+result = employee_check(work_hours)     
 ```
 
 ***
@@ -153,18 +154,19 @@ result = employee_check(work_hours)
 ## 47. Interactions between Python Functions
 
 ```python
-example = [1,2,3,4,5,6,7]
 from random import shuffle
+
+example = [1,2,3,4,5,6,7]
+
 result = shuffle(example)
 result                      # This will not print anything
 
 def shuffle_list(mylist):
-   shuffle(mylist)
-   return mylist
+    shuffle(mylist)
+    return mylist
 
 result = shuffle_list(example)
 result
-Out: [3,4,1,5,6,7,2]
 ```
 
 ```python
