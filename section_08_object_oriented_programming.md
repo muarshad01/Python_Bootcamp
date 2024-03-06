@@ -273,12 +273,15 @@ class Cylinder():
     pi = 3.14
   
     def __init__(self, height=1, radius=1):
+        # instance variables
         self.height = height
         self.radius = radius
 
+    # instance method
     def volume(self):
         return Cylinder.pi * self.radius**2 * self.height
 
+    # instance method
     def surface_area(self):
         top = Cylinder.pi * self.radius**2
         return (2 * top) + (2 * Cylinder.pi * self.radius * self.height)
