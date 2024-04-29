@@ -65,4 +65,11 @@ def add_nums(num1, num2):
 * [Understanding self and cls in Python](https://grzegorz-makowski.medium.com/understanding-self-and-cls-in-python-b674f5e5951d)
 * [Cls vs. Self: Understanding Method Types in Python](https://builtin.com/software-engineering-perspectives/python-cls)
 * [__dict__ attribute and vars() function in python.](https://medium.com/analytics-vidhya/dict-attribute-and-vars-function-in-python-42d82dbaba73)
+
 ***
+
+## Java vs Python Differences
+* We don't have curlery braces `{}`, we use `:` and indentation.
+* We don't have `public, private, protected`, visibility modifiers. For private members, we have a convention of prefixing the variable name with `underscore(_)`
+* `this` versus `self`
+* for instance methods, we pass also `self`
