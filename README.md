@@ -74,10 +74,12 @@ def add_nums(num1, num2):
 * In Python, when you declare a `variable outside of a method`, it’s treated as a `class variable`. Update the Car class as follows:
 * We don't have curlery braces `{}`, we use `:` and indentation.
 * We don't put `semi-colon(;)` after a statement ends
-* Class name is `Camel Case` and method named is `Snake Case` 
+* Class name is `Camel Case` and method named is `Snake Case`
+#### Access Control 
 * We don't have `public, non-public{private, protected}`, visibility modifiers. For `non-public` members, we have a convention of prefixing the variable name with `underscore(_)`.
    * Everything in Python is `public`
    * When Python sees an attribute with `double underscores (__attribute_name)`, it changes the attribute by prefixing the original name of the attribute with an `underscore(_ClassName__attribute_name), followed by the class name`. 
-   * `@properties`
+   * `@property` decorator.
+   * The names of the decorated functions are all the same, indicating they control access to the same attribute. The function names also become the name of the attribute you use to access the value.
 * `this` versus `self`
 * for instance methods, we pass also `self`
