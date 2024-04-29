@@ -41,22 +41,20 @@ if __name__ == "__main__":
 
 ```python
 def name_of_function(name="Default"):
-    print(f"Hello {name}")
-
+   print(f'Hello {name}'.format{name})
 
 if __name__ == "__main__":
-    name_of_function("James")
+   name_of_function("James")
 ```
 ***
 
 ```python
 def name_of_function(num1, num2):
-    return num1 + num2
-
+   return num1 + num2
 
 if __name__ == "__main__":
-    result = name_of_function(1, 2)
-    print(result)
+   result = name_of_function(1, 2)
+   print(result)
 ```
 
 ***
@@ -76,42 +74,42 @@ def even_check(number):
 # Return True if ANY number is even inside a list
 
 def check_even_list(num_list):
-    for number in num_list:
-        if number % 2 == 0:
-            return True
-        else:
-            pass
+   for number in num_list:
+      if number % 2 == 0:
+         return True
+      else:
+         pass
 ```
 
 ```python
 # Return True if ANY number is even inside a list
 
 def check_even_list(num_list):
-    for number in num_list:
-        if number % 2 == 0:
-            return True
-        else:
-            pass
-    
-    return False     
+   for number in num_list:
+      if number % 2 == 0:
+         return True
+      else:
+         pass
+
+   return False     
 ```
 
 * How you can have multiple returns inside a function.
 
 ```python
 def check_even_list(num_list):
-    # return all the even numbers in a list
+   # return all the even numbers in a list
 
-    # placeholder variables
-    even_numbers = []
+   # placeholder variables
+   even_numbers = []
 
-    for number in num_list:
-        if number % 2 == 0:
-            even_numbers.append(number)
-        else:
-            pass
+   for number in num_list:
+      if number % 2 == 0:
+         even_numbers.append(number)
+      else:
+         pass
     
-    return even_numbers
+   return even_numbers
 ```
 
 ***
