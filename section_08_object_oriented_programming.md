@@ -17,6 +17,8 @@ class NameOfClass():
         print(self.param1)
 ```
 
+* By convention, the `parameter_name` and `attribute_name` are the same.
+  
 ***
 
 ## 69. OOP - Object Attributes (`Instance variables`) and `class` Keyword
@@ -43,7 +45,7 @@ my_god.name
 my_god.spots
 ```
 
-* `By convention, the `parameter_name` and `attribute_name` are the same.`
+* By convention, the `parameter_name` and `attribute_name` are the same.
 
 ***
 
