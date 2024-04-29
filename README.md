@@ -68,7 +68,7 @@ def add_nums(num1, num2):
 
 ***
 
-## Java vs Python Differences
+# Java vs Python Differences
 * Java classes are defined in `files with the same name as the class`. So, you have to save this class in a file named ClassName.java. Only ONE class can be defined in each file.
 * All variables in Python are `loosely typed`.
 * In Python, when you declare a `variable outside of a method`, it’s treated as a `class variable`. Update the Car class as follows:
@@ -84,6 +84,18 @@ def add_nums(num1, num2):
 * `this` versus `self`
 * for instance methods, we pass also `self` (it’s required if you want to create or refer to a member attribute)
 * A `static method` does not receive an implicit first argument. A static method is also a method that is bound to the class and not the object of the class.
-### Type and Polymorphism
+#### Type and Polymorphism
 * Python supports `multiple inheritance`, or creating classes that inherit behavior from more than one parent class.
 * In contrast to `Java’s strict variable typing`, Python uses a concept `called duck typing`, which in basic terms means that if a variable `“walks like a duck and quacks like a duck, then it’s a duck.”` Instead of identifying objects by type, Python examines their behavior. You can learn more about the Python type system, and duck typing, in The [Ultimate Guide to Python Type Checking](https://realpython.com/python-type-checking/).
+##### Default Methods
+```java
+class Object {
+   boolean equals(Object obj) { ... }    
+    int hashCode() { ... }    
+    String toString() { ... }    
+}
+```
+* Python provides similar functionality with a set of common [dunder (short for “double underscore”) methods](https://dbader.org/blog/python-dunder-methods). Every Python class inherits these methods, and you can override them to modify their behavior.
+   * For string representations of an object, Python provides `__repr__()` and `__str__()`, which you can learn about in Pythonic OOP String Conversion: `__repr__ vs __str__`. The unambiguous representation of an object is returned by `__repr__()`, while `__str__()` returns a human readable representation. These are roughly analogous to .hashcode() and .toString() in Java.
+     
+####
