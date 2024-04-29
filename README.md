@@ -75,15 +75,20 @@ def add_nums(num1, num2):
 * We don't have curlery braces `{}`, we use `:` and indentation.
 * We don't put `semi-colon(;)` after a statement ends
 * Class name is `Camel Case` and method named is `Snake Case`
+
 #### Access Control 
-* We don't have `public, non-public{private, protected}`, visibility modifiers. For `non-public` members, we have a convention of prefixing the variable name with `underscore(_)`.
-   * Everything in Python is `public`
-   * When Python sees an attribute with `double underscores (__attribute_name)`, it changes the attribute by prefixing the original name of the attribute with an `underscore(_ClassName__attribute_name), followed by the class name`. 
+* Everything in Python is `public`
+   * We don't have `public, private, protected`, visibility modifiers. For `non-public` members, we have a convention of prefixing the variable name with `underscore(_)`.
+   * We can also prefix variable name with `double underscore(__)`. When Python sees an attribute with `double underscores (__attribute_name)`, it changes the attribute by prefixing the original name of the attribute with an `underscore(_ClassName__attribute_name), followed by the class name`. 
    * `@property` decorator.
    * The names of the decorated functions are all the same, indicating they control access to the same attribute. The function names also become the name of the attribute you use to access the value.
 * `this` versus `self`
-* for instance methods, we pass also `self` (it’s required if you want to create or refer to a member attribute)
+
+#### Instance versus Static methods
+* Use of `self`
+* For `instance methods`, we pass also `self` (it’s required if you want to create or refer to a member attribute)
 * A `static method` does not receive an implicit first argument. A static method is also a method that is bound to the class and not the object of the class.
+
 #### Type and Polymorphism
 * Python supports `multiple inheritance`, or creating classes that inherit behavior from more than one parent class.
 * In contrast to `Java’s strict variable typing`, Python uses a concept `called duck typing`, which in basic terms means that if a variable `“walks like a duck and quacks like a duck, then it’s a duck.”` Instead of identifying objects by type, Python examines their behavior. You can learn more about the Python type system, and duck typing, in The [Ultimate Guide to Python Type Checking](https://realpython.com/python-type-checking/).
