@@ -117,7 +117,7 @@ def check_even_list(num_list):
 ## 46. Tuple Unpacking with Python Functions
 
 ```python
-stock_prices = [('APPL',200),('GOOG',400),('MSFT',100)]
+stock_prices = [('APPL', 200), ('GOOG', 400), ('MSFT', 100)]
 
 for item in stock_prices:
    print(item)
@@ -127,19 +127,19 @@ for ticker, price in stock_prices:
 ```
 
 ```python
-work_hours = [('Abby'100),('Billy',4000),('Cassie',800)]
+work_hours = [('Abby', 100), ('Billy', 4000), ('Cassie', 800)]
 
 def employee_check(work_hours):
 
-    current_max = 0
-    employee_of_month = ''
+   current_max = 0
+   employee_of_month = ''
 
-    for employee, hours in work_hours:
-        if hours > current_max:
-            current_max = hours
-            employee_of_month = employee
-        else:
-            pass
+   for employee, hours in work_hours:
+      if hours > current_max:
+         current_max = hours
+         employee_of_month = employee
+      else:
+         pass
 
     # Return
     return (employee_of_month, current_max)
@@ -154,23 +154,23 @@ result = employee_check(work_hours)
 ```python
 from random import shuffle
 
-example = [1,2,3,4,5,6,7]
+example = [1, 2, 3, 4, 5, 6, 7]
 
 result = shuffle(example)
 result                      # This will not print anything
 
 def shuffle_list(mylist):
-    shuffle(mylist)
-    return mylist
+   shuffle(mylist)
+   return mylist
 
 result = shuffle_list(example)
 result
 ```
 
 ```python
-mylist = [' ','O',' ']
-shuffle_list(mylist)
-Out: ['O',' ',' ']
+$ mylist = [' ', 'O', ' ']
+$ shuffle_list(mylist)
+Output: ['O', ' ', ' ']
 
 def player_guess():
    guess = ' '
@@ -180,7 +180,7 @@ def player_guess():
    return int(guess)
 
 player_guess()
-Out: 1
+Output: 1
 
 def check_guess(mylist, guess):
    if mylist[guess] == 'O'
@@ -193,7 +193,7 @@ print(mylist)
 
 ```python
 # INITIAL LIST
-mylist = [' ','O',' ']
+mylist = [' ', 'O', ' ']
 
 # SHUFFLE LIST
 mixedup_list = shuffle_list(mylist)
@@ -219,8 +219,7 @@ check_guess=(mixedup_list,guess)
 
 ```python
 def myfunc(*args):
-    print(args)
-
+   print(args)
 
 if __name__ == "__main__":
     myfunc(40, 60, 100, 1, 34)
@@ -228,25 +227,23 @@ if __name__ == "__main__":
 
 ```python
 def myfunc(**kwargs):
-    if "fruit" in kwargs:
-        print("My fruit of choice is {}".format(kwargs["fruit"]))
-    else:
-        print("I didn't find any fruit")
-
+   if "fruit" in kwargs:
+      print("My fruit of choice is {}".format(kwargs["fruit"]))
+   else:
+      print("I didn't find any fruit")
 
 if __name__ == "__main__":
-    myfunc(fruit="apple", veggie="lettuce")
+   myfunc(fruit="apple", veggie="lettuce")
 ```
 
 ```python
 def myfunc(*args, **kwargs):
-    print(args)
-    print(kwargs)
-    print("I would like {} {}".format(args[0], kwargs["food"]))
-
+   print(args)
+   print(kwargs)
+   print("I would like {} {}".format(args[0], kwargs["food"]))
 
 if __name__ == "__main__":
-    myfunc(10, 20, 30, fruit="orange", food="eggs")
+   myfunc(10, 20, 30, fruit="orange", food="eggs")
 ```
 
 ***
@@ -268,23 +265,23 @@ if __name__ == "__main__":
 ```python
 def summer_69(arr):
     
-    total = 0
-    add = True
+   total = 0
+   add = True
 
-    for num in arr:
-        while add:
-            if num != 6:
-                total += num
-                break
+   for num in arr:
+      while add:
+         if num != 6:
+            total += num
+               break
             else:
-                add = False
-        while no add:
-            if num != 9:
-                break
-            else:
-                add = True
-                break
-    return total
+               add = False
+      while no add:
+         if num != 9:
+            break
+         else:
+            add = True
+            break
+      return total
 ```
 
 ***
