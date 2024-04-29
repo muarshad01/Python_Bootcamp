@@ -84,4 +84,6 @@ def add_nums(num1, num2):
 * `this` versus `self`
 * for instance methods, we pass also `self` (it’s required if you want to create or refer to a member attribute)
 * A `static method` does not receive an implicit first argument. A static method is also a method that is bound to the class and not the object of the class.
+### Type and Polymorphism
 * Python supports `multiple inheritance`, or creating classes that inherit behavior from more than one parent class.
+* In contrast to Java’s strict variable typing, Python uses a concept called duck typing, which in basic terms means that if a variable “walks like a duck and quacks like a duck, then it’s a duck.” Instead of identifying objects by type, Python examines their behavior. You can learn more about the Python type system, and duck typing, in The [Ultimate Guide to Python Type Checking](https://realpython.com/python-type-checking/).
