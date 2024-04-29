@@ -70,6 +70,6 @@ def add_nums(num1, num2):
 
 ## Java vs Python Differences
 * We don't have curlery braces `{}`, we use `:` and indentation.
-* We don't have `public, private, protected`, visibility modifiers. For private members, we have a convention of prefixing the variable name with `underscore(_)`
+* We don't have `public, private (non-public), protected`, visibility modifiers. For private members, we have a convention of prefixing the variable name with `underscore(_)`
 * `this` versus `self`
 * for instance methods, we pass also `self`
