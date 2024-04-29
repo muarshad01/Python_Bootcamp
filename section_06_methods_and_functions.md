@@ -1,13 +1,13 @@
 ## 41 Methods and the Python Documentation
 
 ```python
-mylist = [1,2,3]
-mylist.append(4)
-mylist
-Out: [1, 2, 3, 4]
+$ mylist = [1,2,3]
+$ mylist.append(4)
+$ mylist
+Output:  [1, 2, 3, 4]
 
-mylist.pop()
-Out: [1, 2, 3]
+$ mylist.pop()
+Output: [1, 2, 3]
 ```
 
 ### Object + Dot + Tab
@@ -26,10 +26,10 @@ Out: [1, 2, 3]
 
 ```python
 def name_of_function():
-    print('Hello')
+   print('Hello')
     
 if __name__ == "__main__":
-    name_of_function()
+   name_of_function()
 ```
 
 * Note: Everything inside the function is indented
