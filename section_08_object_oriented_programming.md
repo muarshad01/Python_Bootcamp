@@ -337,9 +337,8 @@ class MethodTypes:
 
     def instanceMethod(self):
         # Creates an instance atribute through keyword 'self'
-        self.lastname = "Lothbrock"
+        self.name = "Lothbrock"
         print(self.name)
-        print(self.lastname)
 
     @classmethod
     def classMethod(cls):
@@ -360,7 +359,6 @@ m.instanceMethod()
 
 MethodTypes.classMethod()
 MethodTypes.staticMethod()
-
 ```
 
 ***
