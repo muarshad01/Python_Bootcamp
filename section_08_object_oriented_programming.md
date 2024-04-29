@@ -1,7 +1,7 @@
 ## 68. OOP - Introduction
 
-### Objects
-* Methods
+### Objects (Instances)
+* Methods (Functions in Python)
 * Attributes
 
 ```python
@@ -19,7 +19,7 @@ class NameOfClass():
 
 ***
 
-## 69. OOP - Object Attributes and `class` Keyword
+## 69. OOP - Object Attributes (`Instance variables`) and `class` Keyword
 
 * The `class` is blueprint for creating objects.
 * An `object` is an instance of a class.
@@ -43,7 +43,7 @@ my_god.name
 my_god.spots
 ```
 
-* By convention, the `parameter_name` and `attribute_name` are the same.
+* `By convention, the `parameter_name` and `attribute_name` are the same.`
 
 ***
 
