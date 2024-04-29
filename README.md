@@ -73,6 +73,7 @@ def add_nums(num1, num2):
 * All variables in Python are `loosely typed`.
 * In Python, when you declare a `variable outside of a method`, it’s treated as a `class variable`. Update the Car class as follows:
 * We don't have curlery braces `{}`, we use `:` and indentation.
+* We don't put `semi-colon(;)` after a statement ends
 * Class name is `Camel Case` and method named is `Snake Case` 
 * We don't have `public, non-public{private, protected}`, visibility modifiers. For `non-public` members, we have a convention of prefixing the variable name with `underscore(_)`
    * `@properties`
