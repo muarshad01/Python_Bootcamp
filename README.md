@@ -61,6 +61,7 @@ def add_nums(num1, num2):
 
 * [The official Python Tutorial](https://docs.python.org/3/tutorial/)
 * [Object-Oriented Programming in Python vs Java](https://realpython.com/oop-in-python-vs-java/)
+* [Getters and Setters: Manage Attributes in Python](https://realpython.com/python-getter-setter/)
 * [Understanding self and cls in Python](https://grzegorz-makowski.medium.com/understanding-self-and-cls-in-python-b674f5e5951d)
 * [Cls vs. Self: Understanding Method Types in Python](https://builtin.com/software-engineering-perspectives/python-cls)
 * [__dict__ attribute and vars() function in python.](https://medium.com/analytics-vidhya/dict-attribute-and-vars-function-in-python-42d82dbaba73)
