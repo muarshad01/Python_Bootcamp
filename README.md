@@ -83,4 +83,5 @@ def add_nums(num1, num2):
    * The names of the decorated functions are all the same, indicating they control access to the same attribute. The function names also become the name of the attribute you use to access the value.
 * `this` versus `self`
 * for instance methods, we pass also `self` (it’s required if you want to create or refer to a member attribute)
-* A `static method` does not receive an implicit first argument. A static method is also a method that is bound to the class and not the object of the class. 
+* A `static method` does not receive an implicit first argument. A static method is also a method that is bound to the class and not the object of the class.
+* Python supports `multiple inheritance`, or creating classes that inherit behavior from more than one parent class.
