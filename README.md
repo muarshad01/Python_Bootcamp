@@ -82,4 +82,4 @@ def add_nums(num1, num2):
    * `@property` decorator.
    * The names of the decorated functions are all the same, indicating they control access to the same attribute. The function names also become the name of the attribute you use to access the value.
 * `this` versus `self`
-* for instance methods, we pass also `self`
+* for instance methods, we pass also `self` (it’s required if you want to create or refer to a member attribute)
