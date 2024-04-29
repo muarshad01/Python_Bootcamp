@@ -72,5 +72,6 @@ def add_nums(num1, num2):
 * We don't have curlery braces `{}`, we use `:` and indentation.
 * Class name is `Camel Case` and method named is `Snake Case` 
 * We don't have `public, non-public{private, protected}`, visibility modifiers. For `non-public` members, we have a convention of prefixing the variable name with `underscore(_)`
+   * `@properties`
 * `this` versus `self`
 * for instance methods, we pass also `self`
