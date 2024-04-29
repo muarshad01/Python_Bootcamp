@@ -107,12 +107,12 @@ class Animal():
 
     def __init__(self):
         print("ANIMAL CREATED")
-    
-    def who_am_i(self):
-        print("I'm an animal")
-    
+
     def eat(self):
         print("I'm eating")
+
+    def who_am_i(self):
+        print("I'm an animal")
 ```
 
 ```python
