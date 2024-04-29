@@ -71,10 +71,10 @@ def add_nums(num1, num2):
 # Java vs Python Differences
 * Java classes are defined in `files with the same name as the class`. So, you have to save this class in a file named ClassName.java. Only ONE class can be defined in each file.
 * All variables in Python are `loosely typed`.
-* In Python, when you declare a `variable outside of a method`, it’s treated as a `class variable`. Update the Car class as follows:
-* We don't have curlery braces `{}`, we use `:` and indentation.
+* In Python, when you declare a `variable outside of a method`, it’s treated as a `class variable`. 
+* We don't have curlery braces (`{}`), instead we use (`:`) and indentation.
 * We don't put `semi-colon(;)` after a statement ends
-* Class name is `Camel Case` and method named is `Snake Case`
+* ClassName is `Camel Case` and method_name is `Snake Case`
 
 #### Access Control 
 * Everything in Python is `public`
