@@ -33,9 +33,9 @@ if __name__ == "__main__":
 ```
 
 * Note: Everything inside the function is indented
-* (`:`) at the end of parenthesis `()` tells that next we have an indented block of code
-* Python uses `snake_casing`, by default, for name of function, which is all lowercase with underscores between words
-* Class calls use `camel_casing`
+* (`:`) at the end of parenthesis `()` tells that next we have an indented-block of code
+* Python uses `snake_casing`, by default, for name_of_function, which is `all lowercase with underscores between words`
+* Class calls use `CamelCasing`
 
 ***
 
