@@ -81,7 +81,7 @@ class Circle():
     def __init__(self, radius=1):
         # instance variables
         self.radius = radius
-        self.area = Circle.pi * radius * radius
+        self.area = Circle.pi * self.radius * self.radius
 
     # instance method
     def circumference(self):
