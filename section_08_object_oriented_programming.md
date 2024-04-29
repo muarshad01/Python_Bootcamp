@@ -244,7 +244,7 @@ del b
 class Line():
 
     def __init__(self, coor1, coor2):
-        # coordinates are being passed and tuples
+        # coordinates are being passed as tuples
         self.coor1 = coor1
         self.coor2 = coor2
 
