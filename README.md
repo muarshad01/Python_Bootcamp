@@ -74,7 +74,7 @@ def add_nums(num1, num2):
 * In Python, when you declare a `variable outside of a method`, it’s treated as a `class variable`. 
 * We don't have curlery braces (`{}`), instead we use (`:`) and indentation.
 * We don't put `semi-colon(;)` after a statement ends
-* ClassName is `Camel Case` and method_name is `Snake Case`
+* className is `CamelCase` and method_name is `snake_case`
 
 #### Access Control 
 * Everything in Python is `public`
