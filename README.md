@@ -102,5 +102,12 @@ class Object {
 ```
 * Python provides similar functionality with a set of common [dunder (short for “double underscore”) methods](https://dbader.org/blog/python-dunder-methods). Every Python class inherits these methods, and you can override them to modify their behavior.
    * For string representations of an object, Python provides `__repr__()` and `__str__()`, which you can learn about in Pythonic OOP String Conversion: `__repr__ vs __str__`. The unambiguous representation of an object is returned by `__repr__()`, while `__str__()` returns a human readable representation. These are roughly analogous to .hashcode() and .toString() in Java.
-     
-####
+
+***
+
+## Windos
+### Command Pallete
+```
+shift + ctrl + p
+```
+
