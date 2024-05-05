@@ -110,4 +110,8 @@ class Object {
 ```
 shift + ctrl + p
 ```
+### Format Document
+```
+Shift + Alt + F
+```
 
