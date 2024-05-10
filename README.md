@@ -33,11 +33,11 @@
 ***
 
 ## TODO
-
 * $\color{red}{Python\ Postgres}$
 * Python MySQL - https://www.w3schools.com/python/python_mysql_getstarted.asp
 * Python MongoDB - https://www.w3schools.com/python/python_mongodb_getstarted.asp
 * Python RESTful API
+* Unit Tests in Python
 
 ***
 
@@ -92,6 +92,7 @@ def add_nums(num1, num2):
 #### Type and Polymorphism
 * Python supports `multiple inheritance`, or creating classes that inherit behavior from more than one parent class.
 * In contrast to `Java’s strict variable typing`, Python uses a concept `called duck typing`, which in basic terms means that if a variable `“walks like a duck and quacks like a duck, then it’s a duck.”` Instead of identifying objects by type, Python examines their behavior. You can learn more about the Python type system, and duck typing, in The [Ultimate Guide to Python Type Checking](https://realpython.com/python-type-checking/).
+
 ##### Default Methods
 ```java
 class Object {
