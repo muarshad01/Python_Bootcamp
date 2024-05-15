@@ -107,7 +107,7 @@ class Object {
 
 ***
 
-## Windos
+## Windows
 ### Command Pallete
 ```
 shift + ctrl + p
