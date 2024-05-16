@@ -30,6 +30,7 @@ class NameOfClass():
 ```python
 class Dog():
 
+    # constructor
     def __init__(self, breed, name, spots):
         # instance variables
         self.breed = breed
@@ -38,6 +39,7 @@ class Dog():
 ```
 
 ```python
+# object (instance)
 my_dog = Dog(breed='Lab', name='Sammy', spots=False)
 
 type(my_dog)
