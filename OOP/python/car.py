@@ -1,36 +1,13 @@
-"""Car, Device, and Vehicle classes
-
-Used to demonstrate object oriented techniques in Java vs Python
-"""
-
-
-class Vehicle:
-    """The Vehicle class is the parent for all vehicles."""
-
-    def __init__(self, color, model):
-        """Define the color and model of our vehicle"""
-        self.color = color
-        self.model = model
-
-
-class Device:
-    """The Device class defines objects which have a battery."""
-
-    def __init__(self):
-        """Define the base voltage for our device."""
-        self._voltage = 12
-
-
-class Car(Vehicle, Device):
+class Car(Vehicle):
     """The Car class is both a Vehicle and a Device."""
 
     wheels = 0
 
-    def __init__(self, color, model, year):
+    def __init__(self, color, model, year, voltage):
         """Call our parent classes, then define the year."""
         Vehicle.__init__(self, color, model)
-        Device.__init__(self)
         self.year = year
+        self.voltage = voltage
 
     def add_wheels(self, wheels):
         """Change the number of wheels we have."""
