@@ -2,7 +2,7 @@
 
 ### Objects (Instances)
 * Methods (Functions in Python); We pass parameters to functinos
-* Attributes (i.e., instance variables)
+* Instance variables (i.e., Attributes)
 
 ```python
 class NameOfClass():
