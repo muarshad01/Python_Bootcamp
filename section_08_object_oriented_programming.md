@@ -39,13 +39,15 @@ class Dog():
 ```
 
 ```python
-# object (instance)
-my_dog = Dog(breed='Lab', name='Sammy', spots=False)
+if __name__ == "__main__":
 
-type(my_dog)
-my_god.breed
-my_god.name
-my_god.spots
+    # object (instance)
+    my_dog =  Dog(breed="Lab", name="Sammy", spots=False)
+
+    print(type(my_dog))
+    print(my_dog.breed)
+    print(my_dog.name)
+    print(my_dog.spots)
 ```
 
 * By convention, the `parameter_name` and `attribute_name` are the same.
