@@ -7,6 +7,7 @@
 ```python
 class NameOfClass():
 
+    # constructor
     def __init__(self, param1, param2):
         # instance variables
         self.param1 = param1
