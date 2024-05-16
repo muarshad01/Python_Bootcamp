@@ -18,7 +18,7 @@ class NameOfClass():
         print(self.param1)
 ```
 
-* By convention, the `parameter_name` and `attribute_name` are the same.
+* By convention, the `parameter_name` and `attribute_name (i.e. instance variable name)` are the same.
   
 ***
 
