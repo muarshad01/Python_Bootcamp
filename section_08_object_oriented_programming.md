@@ -1,8 +1,8 @@
 ## 68. OOP - Introduction
 
 ### Objects (Instances)
-* Methods (Functions in Python)
-* Attributes
+* Methods (Functions in Python); We pass parameters to functinos
+* Attributes (i.e., instance variables)
 
 ```python
 class NameOfClass():
