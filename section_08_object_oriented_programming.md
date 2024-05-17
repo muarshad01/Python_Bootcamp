@@ -73,8 +73,12 @@ class Dog:
 ```
 
 ```python
-my_dog = Dog('Lab','Frankie')
-my_dog.bark(10)
+if __name__ == "__main__":
+
+    # instance (object)
+    my_dog = Dog('Lab', 'Frankie')
+
+    my_dog.bark(10)
 ```
 
 ```python
@@ -94,8 +98,12 @@ class Circle():
 ```
 
 ```python
-my_circle = Cirle(10)
-my_circle.circumference()
+if __name__ == "__main__":
+
+    # instance (object)
+    my_circle = Cirle(10)
+
+    my_circle.circumference()
 ```
 
 ***
@@ -160,15 +168,18 @@ class Cat():
 ```
 
 ```python
-niko = Dog("niko")
-felix = Cat("felix")
+if __name__ == "__main__":
 
-print(niko.speak())
-print(felix.speak())
+    # instance (object)
+    niko = Dog("niko")
+    felix = Cat("felix")
 
-for pet in [niko, felix]:
-    print(type(pet))
-    print(type(pet.speak()))
+    print(niko.speak())
+    print(felix.speak())
+
+    for pet in [niko, felix]:
+        print(type(pet))
+        print(type(pet.speak()))
 ```
 
 ```python
