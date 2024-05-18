@@ -166,15 +166,18 @@ class Dog(Animal):
     def __init__(self):
         Animal.__init__(self)
         print("Dog Created")
-   
-    def eat(self):
-        print("I'm a dog and eating") 
-    
-    def who_am_i(self):
-        print("I'm a dog!")
 
-    def bark(self):
-        print("Woof!")
+   # overriding the Animal class eat(self) method
+   def eat(self):
+      print("I'm a dog and eating") 
+
+   # overriding the Animal class who_am_i(self)
+   def who_am_i(self):
+      print("I'm a dog!")
+
+   # Add on method
+   def bark(self):
+      print("Woof!")
 ```
 
 ```python
