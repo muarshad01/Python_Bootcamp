@@ -119,9 +119,9 @@ if __name__ == "__main__":
     circle = Circle(10)
 
     print(type(circle))
-    print(circle.radius)
-    print(circle.area)
-    print(circle.circumference()) 
+    print("radius is = {}".format(circle.radius))
+    print("area is = {}".format(circle.area))
+    print("circumference is = {}".format(circle.circumference()))
 ```
 
 ***
