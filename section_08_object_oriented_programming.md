@@ -1,9 +1,13 @@
 # Terminology
-* Object (Instance) - e.g. `new` operator
-* Instance variable, e.g. `this.param1` and `self.param1`
+* Instance (Object)
+* Instance variable
 * Instance methods
-* Static variable (Class variable)
-* Static method
+* 
+* static variable (Class variable)
+* static method
+
+* Parameter versus argument
+    * Argument value is the acutal value which is assigned to the paramenters of constcutor
 
 ## 68. OOP - Introduction
 
