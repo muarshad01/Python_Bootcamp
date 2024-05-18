@@ -137,16 +137,24 @@ if __name__ == "__main__":
 
 ```python
 class Animal():
+    
+   # constructor
+   def __init__(self):
+      print("ANIMAL CREATED")
 
-    # constructor
-    def __init__(self):
-        print("ANIMAL CREATED")
+   def eat(self):
+      print("I'm eating")
 
-    def eat(self):
-        print("I'm eating")
+   def who_am_i(self):
+      print("I'm an animal")
 
-    def who_am_i(self):
-        print("I'm an animal")
+if __name__ == "__main__":
+
+   # Instance variable (object)
+    my_animal = Animal()
+
+    print(my_animal.eat())
+    print(my_animal.who_am_i())
 ```
 
 ```python
