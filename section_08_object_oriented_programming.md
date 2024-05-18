@@ -64,7 +64,7 @@ if __name__ == "__main__":
 ## 70. OOP - Class Attributes (Static Variables) and Methods
 
 ```python
-class Dog:
+class Dog():
 
     # class variable (static variable)
     species = "mammal"
