@@ -241,11 +241,12 @@ class Book():
 ```
 
 ```python
-b = Book('Python Rocks', 'Jose', 200)
+if __name__ == "__main__":
+    b = Book('Python Rocks', 'Jose', 200)
 
-print(b)
-print(len(b))
-del b
+    print(b)
+    print(len(b))
+    del b
 ```
 
 ***
@@ -276,13 +277,14 @@ class Line():
 ```
 
 ```python
-c1 = (3, 2)
-c2 = (8, 10)
+if __name__ == "__main__":
+    c1 = (3, 2)
+    c2 = (8, 10)
 
-line = Line(c1, c2)
+    line = Line(c1, c2)
 
-line.distance()
-line.slope()
+    line.distance()
+    line.slope()
 ```
 
 ```python
@@ -307,9 +309,11 @@ class Cylinder():
 ```
 
 ```python
-mycyl = Cylinder(2, 3)
-mycyl.volume()
-mycyl.surface_area()
+if __name__ == "__main__":
+    # instance (object)
+    mycyl = Cylinder(2, 3)
+    mycyl.volume()
+    mycyl.surface_area()
 ```
 
 ***
