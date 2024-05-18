@@ -32,7 +32,7 @@ class NameOfClass():
         print(self.param1)
 ```
 
-* By convention, the fuction `parameter names` and `object attribute names` (i.e. instance variable names)` are the same.
+* By convention, the `fuction parameter names` and `object attribute names` (i.e. instance variable names)` are the same.
   
 ***
 
@@ -64,8 +64,7 @@ if __name__ == "__main__":
     print(my_dog.spots)
 ```
 
-* By convention, the `parameter_name` and `attribute_name` are the same.
-
+* By convention, the `fuction parameter names` and `object attribute names` (i.e. instance variable names)` are the same.
 ***
 
 ## 70. OOP - Class Attributes (Static Variables) and Methods
