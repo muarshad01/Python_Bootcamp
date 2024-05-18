@@ -62,6 +62,7 @@ class Dog:
     # class variable (static variable)
     species = "mammal"
 
+    # constructor
     def __init__(self, breed, name):
         # instance variable
         self.breed = breed
@@ -87,6 +88,7 @@ class Circle():
     # class variable (static variable)
     pi = 3.14
 
+    # constructor
     def __init__(self, radius=1):
         # instance variables
         self.radius = radius
@@ -118,6 +120,7 @@ if __name__ == "__main__":
 ```python
 class Animal():
 
+    # constructor
     def __init__(self):
         print("ANIMAL CREATED")
 
@@ -130,7 +133,8 @@ class Animal():
 
 ```python
 class Dog(Animal):
-    
+
+    # constructor
     def __init__(self):
         Animal.__init__(self)
         print("Dog Created")
@@ -150,6 +154,7 @@ class Dog(Animal):
 ```python
 class Dog():
 
+    # constructor
     def __init__(self, name):
         self.name = name
 
@@ -160,6 +165,7 @@ class Dog():
 ```python
 class Cat():
 
+    # constructor
     def __init__(self, name):
         self.name = name
 
@@ -224,6 +230,7 @@ class Cat(Animal):
 ```python
 class Book():
 
+    # constructor
     def __init__(self, title, author, pages):
         # instance variables
         self.title = title
@@ -242,6 +249,8 @@ class Book():
 
 ```python
 if __name__ == "__main__":
+
+    # instance (object)
     b = Book('Python Rocks', 'Jose', 200)
 
     print(b)
@@ -260,6 +269,7 @@ if __name__ == "__main__":
 ```python
 class Line():
 
+    # constructor
     def __init__(self, coor1, coor2):
         # coordinates are being passed as tuples
         self.coor1 = coor1
@@ -290,9 +300,10 @@ if __name__ == "__main__":
 ```python
 class Cylinder():
 
-    # class variables
+    # class variable (static variable)
     pi = 3.14
-  
+
+    # constructor
     def __init__(self, height=1, radius=1):
         # instance variables
         self.height = height
@@ -310,8 +321,10 @@ class Cylinder():
 
 ```python
 if __name__ == "__main__":
+
     # instance (object)
     mycyl = Cylinder(2, 3)
+
     mycyl.volume()
     mycyl.surface_area()
 ```
@@ -327,7 +340,9 @@ if __name__ == "__main__":
 ```python
 class Account():
 
+    # constructor
     def __init__(self, owner, balance=0):
+        # instance variable
         self.owner = owner
         self.balance = balance
 
@@ -355,10 +370,15 @@ class MethodTypes:
     # class variable (static variable)
     name = "Ragnar"
 
+    # instance method
     def instanceMethod(self):
         # Creates an instance atribute through keyword 'self'
         self.name = "Lothbrock"
         print(self.name)
+
+    @staticmethod
+    def staticMethod():
+        print("This is a static method")
 
     @classmethod
     def classMethod(cls):
@@ -366,21 +386,20 @@ class MethodTypes:
         cls.name = "Lagertha"
         print(cls.name)
 
-    @staticmethod
-    def staticMethod():
-        print("This is a static method")
-
 # Creates an instance of the class
-m = MethodTypes()
+if __name__ == "__main__":
+    # instance (object)
+    m = MethodTypes()
 
-# Calls instance method
-m.instanceMethod()
+    # Calls instance method
+    m.instanceMethod()
 
-MethodTypes.classMethod()
-MethodTypes.staticMethod()
+    MethodTypes.classMethod()
+    MethodTypes.staticMethod()
 ```
 
 ***
 
 * [Object-Oriented Programming in Python vs Java](https://realpython.com/oop-in-python-vs-java/)
 
+***
