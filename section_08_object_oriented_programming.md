@@ -133,7 +133,7 @@ if __name__ == "__main__":
 * Reuse code
 * Reduce complexity of program
 
-### Interitance
+### Interitance and Overriding
 
 ```python
 class Animal():
