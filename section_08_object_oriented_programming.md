@@ -191,6 +191,7 @@ if __name__ == "__main__":
 ```
 
 ### Polymorphism
+* In Python, polymorphism referes to the way in which different object classes can share the same method name.
 
 ```python
 class Dog():
@@ -214,7 +215,7 @@ class Cat():
         return self.name + " says meow!"
 ```
 
-* Same method names (e.g., `speak(self)`), but having different Types (e.g. `Dog` and `Cat`)
+* Same method name (e.g., `speak(self)`), but having different Types (e.g. `Dog` and `Cat`)
 
 ```python
 if __name__ == "__main__":
