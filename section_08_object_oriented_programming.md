@@ -191,6 +191,7 @@ if __name__ == "__main__":
 ```
 
 ### Polymorphism
+* Same method names but having different Type (i.e. Name)
 
 ```python
 class Dog():
