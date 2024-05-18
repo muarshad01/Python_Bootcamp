@@ -15,8 +15,8 @@
 
 ### Objects (Instances)
 * Instance variables (i.e., Object attributes)
-* Instance Methods
-* `Note`: Method are called functions in Python
+* Instance methods
+* `Note`: Methods are called Functions in Python
   
 ```python
 class NameOfClass():
