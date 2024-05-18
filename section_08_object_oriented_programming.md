@@ -3,8 +3,8 @@
 * Instance variable (Object attributes)
 * Instance methods (Object method)
 * 
-* static variable (Class variable)
-* static method (Class method)
+* Static variable (Class variable)
+* Static method (Class method)
 *
 * Parameter versus Argument
     * Argument value is the acutal value which is assigned to the paramenters of constcutor
