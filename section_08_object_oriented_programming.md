@@ -106,13 +106,18 @@ class Circle():
         return 2 * Circle.pi * self.radius
 ```
 
+***
+
 ```python
 if __name__ == "__main__":
 
     # instance (object)
-    my_circle = Cirle(10)
+    circle = Circle(10)
 
-    my_circle.circumference()
+    print(type(circle))
+    print(circle.radius)
+    print(circle.area)
+    print(circle.circumference()) 
 ```
 
 ***
