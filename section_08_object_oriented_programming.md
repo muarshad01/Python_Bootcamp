@@ -150,7 +150,7 @@ class Animal():
 
 if __name__ == "__main__":
 
-   # Instance variable (object)
+   # Instance (object)
     my_animal = Animal()
 
     print(my_animal.eat())
