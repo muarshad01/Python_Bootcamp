@@ -1,3 +1,10 @@
+# Terminology
+* Object (Instance) - e.g. `new` operator
+* Instance variable, e.g. `this.param1` and `self.param1`
+* Instance methods
+* Static variable (Class variable)
+* Static method
+
 ## 68. OOP - Introduction
 
 ### Objects (Instances)
