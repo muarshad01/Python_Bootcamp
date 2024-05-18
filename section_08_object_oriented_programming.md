@@ -148,6 +148,7 @@ class Animal():
    def who_am_i(self):
       print("I'm an animal")
 
+```python
 if __name__ == "__main__":
 
    # Instance (object)
@@ -173,6 +174,16 @@ class Dog(Animal):
 
     def bark(self):
         print("Woof!")
+```
+
+```python
+if __name__ == "__main__":
+
+    # instance (object)
+    my_dog = Dog()
+
+    print(my_dog.eat())
+    print(my_dog.who_am_i())
 ```
 
 ### Polymorphism
