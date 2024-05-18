@@ -191,7 +191,6 @@ if __name__ == "__main__":
 ```
 
 ### Polymorphism
-* Same method names but having different Type (i.e. Name)
 
 ```python
 class Dog():
@@ -214,6 +213,8 @@ class Cat():
     def speak(self):
         return self.name + " says meow!"
 ```
+
+* Same method names (e.g., `speak(self)`) but having different Types (e.g. `Dog` and `Cat`)
 
 ```python
 if __name__ == "__main__":
