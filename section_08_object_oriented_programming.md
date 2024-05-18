@@ -1,13 +1,15 @@
 # Terminology
 * Instance (Object)
-* Instance variable
-* Instance methods
+* Instance variable (Object attributes)
+* Instance methods (Object method)
 * 
 * static variable (Class variable)
-* static method
-
-* Parameter versus argument
+* static method (Class method)
+*
+* Parameter versus Argument
     * Argument value is the acutal value which is assigned to the paramenters of constcutor
+
+***
 
 ## 68. OOP - Introduction
 
