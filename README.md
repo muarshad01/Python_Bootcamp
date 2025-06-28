@@ -23,6 +23,9 @@
 * [Section 15: Web Scraping with Python](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_15_web_scraping_with_python.md) -- NA
 * [Section 16: Working with Images with Python](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_16_working_with_images_with_python.md) -- NA
 * [Section 17: Working with PDFs and Spreadsheet CSV Files](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_17_working_with_pdfs_and_spreadsheet_csv_files.md) -- January 04,2024
+
+***
+
 * [Section 18: Emails with Python](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_18_emails_with_python.md) -- January 04,2023
 * [Section 19: Final Capstone Python Project](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_19_final_capstone_python_project.md) -- NA
 * [Section 20: Advanced Python Objects and Data Structures](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_20_advanced_python_objects_and_data_structures.md) -- Dec 31, 2023
