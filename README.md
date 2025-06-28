@@ -8,6 +8,9 @@
 
 * [Section 1: Course Overview](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_01_course_overview.md) -- Dec 15, 2023
 * [Section 2: Python Setup](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_02_python_setup.md) -- Dec 15, 2023
+
+*** 
+
 * [Section 3: Python Object and Data Structures Basics](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_03_python_object_and_data_structurs_basics.md) -- January 09, 2024
 * [Section 4: Python Comparison Operators](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_04_python_comparison_operatos.md) -- January 09, 2024t
 * [Section 5: Python Statements](https://github.com/muarshad01/Python_Bootcamp/blob/main/section_05_python_statements.md) -- January 11, 2024
