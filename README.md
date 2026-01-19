@@ -1,4 +1,5 @@
-```Success isn't always about greatness. 
+```
+SUCCESS isn't always about greatness. 
 It's about CONSISTENCY. 
 Consistent hard work leads to success. 
 Greatness will come! -- Dwayne Johnson```
